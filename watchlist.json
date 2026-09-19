@@ -1,0 +1,15 @@
+{
+  "_comment": "NSE tickers with .NS suffix. Edit this list once — add/remove stocks you want the daily cash-flow screener to scan. Keep it to 50-150 liquid names for now; you can grow it later.",
+  "tickers": [
+    "RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "ICICIBANK.NS", "INFY.NS",
+    "SBIN.NS", "BHARTIARTL.NS", "ITC.NS", "LT.NS", "KOTAKBANK.NS",
+    "AXISBANK.NS", "HINDUNILVR.NS", "BAJFINANCE.NS", "MARUTI.NS", "SUNPHARMA.NS",
+    "TITAN.NS", "ULTRACEMCO.NS", "NTPC.NS", "POWERGRID.NS", "TATAMOTORS.NS",
+    "TATASTEEL.NS", "ADANIENT.NS", "ADANIPORTS.NS", "ASIANPAINT.NS", "BAJAJFINSV.NS",
+    "HCLTECH.NS", "WIPRO.NS", "TECHM.NS", "ONGC.NS", "COALINDIA.NS",
+    "JSWSTEEL.NS", "GRASIM.NS", "HINDALCO.NS", "CIPLA.NS", "DRREDDY.NS",
+    "DIVISLAB.NS", "APOLLOHOSP.NS", "NESTLEIND.NS", "BRITANNIA.NS", "M&M.NS",
+    "EICHERMOT.NS", "BAJAJ-AUTO.NS", "HEROMOTOCO.NS", "INDUSINDBK.NS", "SBILIFE.NS",
+    "HDFCLIFE.NS", "BPCL.NS", "IOC.NS", "TATACONSUM.NS", "UPL.NS"
+  ]
+}

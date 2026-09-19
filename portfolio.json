@@ -1,0 +1,11 @@
+{
+  "_comment": "Your actual holdings. Edit this ONLY when you buy or sell something — the daily exit-monitor reads this file to check if any position should be exited. entry_price and quantity are used just for your own P&L logging, not required for the exit signal itself.",
+  "holdings": [
+    {
+      "ticker": "EXAMPLE.NS",
+      "entry_price": 100.0,
+      "quantity": 10,
+      "engine": "cash_flow"
+    }
+  ]
+}
