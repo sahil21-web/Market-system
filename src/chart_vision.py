@@ -14,7 +14,7 @@ matplotlib.use("Agg")
 import mplfinance as mpf
 from . import data
 
-GEMINI_VISION_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+GEMINI_VISION_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent"
 
 
 def _make_chart_png_b64(ticker, days=90):
