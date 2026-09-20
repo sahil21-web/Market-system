@@ -8,27 +8,37 @@ free tier's rate limits.
 """
 import os
 import json
+import time
 import requests
 from . import data, news
 
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent"
 
 
-def _call_gemini(prompt):
+def _call_gemini(prompt, retries=3):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         return "(AI research skipped — no GEMINI_API_KEY secret set yet)"
-    try:
-        resp = requests.post(
-            f"{GEMINI_URL}?key={api_key}",
-            json={"contents": [{"parts": [{"text": prompt}]}]},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        out = resp.json()
-        return out["candidates"][0]["content"]["parts"][0]["text"].strip()
-    except Exception as e:
-        return f"(AI research unavailable right now: {e})"
+    last_error = None
+    for attempt in range(retries):
+        try:
+            resp = requests.post(
+                f"{GEMINI_URL}?key={api_key}",
+                json={"contents": [{"parts": [{"text": prompt}]}]},
+                timeout=30,
+            )
+            if resp.status_code in (429, 503):
+                # rate-limited or momentarily overloaded — back off and retry
+                time.sleep(8 * (attempt + 1))
+                last_error = f"{resp.status_code} on attempt {attempt + 1}"
+                continue
+            resp.raise_for_status()
+            out = resp.json()
+            return out["candidates"][0]["content"]["parts"][0]["text"].strip()
+        except Exception as e:
+            last_error = e
+            time.sleep(4)
+    return f"(AI research unavailable after retries: {last_error})"
 
 
 def research_cash_flow_candidate(hit):
