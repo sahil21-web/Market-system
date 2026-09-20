@@ -1,39 +1,31 @@
-name: Weekly Wealth Screen
+name: Weekly Stock Analysis
 
 on:
   schedule:
-    # 03:00 UTC Saturday = 8:30 AM IST Saturday
-    - cron: "0 3 * * 6"
-  workflow_dispatch: {}
-
-permissions:
-  contents: write
+    - cron: '0 2 * * 0' # Runs Sunday at 02:00 UTC
+  workflow_dispatch:
 
 jobs:
   run-weekly:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run weekly screen
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python scripts/run_weekly.py
-
-      - name: Commit log file back to repo
         run: |
-          git config user.name "market-system-bot"
-          git config user.email "actions@github.com"
-          git add logs/
-          git diff --cached --quiet || git commit -m "Weekly run $(date -I)"
-          git push
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Weekly Script
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python main.py --mode weekly || python weekly_run.py
