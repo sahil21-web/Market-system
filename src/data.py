@@ -10,7 +10,19 @@ import yfinance as yf
 CONFIG_DIR = os.path.join(os.path.dirname(__file__), "..", "config")
 
 
-def load_watchlist():
+def load_watchlist(use_full_market=True, limit=300):
+    """
+    By default this now scans the real NSE 500 universe (fetched live), not a
+    hand-picked list. If the live fetch fails, or use_full_market=False, it
+    falls back to the static list in config/watchlist.json.
+    limit caps how many names get scanned per run to keep runtime reasonable
+    on GitHub Actions' free tier.
+    """
+    if use_full_market:
+        from . import universe
+        tickers = universe.fetch_nifty500(limit=limit)
+        if tickers:
+            return tickers
     with open(os.path.join(CONFIG_DIR, "watchlist.json")) as f:
         return json.load(f)["tickers"]
 
