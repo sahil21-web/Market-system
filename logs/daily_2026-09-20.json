@@ -300,17 +300,6 @@
       "risk_reward": 2.0
     },
     {
-      "ticker": "ABBOTINDIA.NS",
-      "close": 27270.0,
-      "trend_ok": false,
-      "rsi_cross": true,
-      "volume_ok": true,
-      "checks_passed": 2,
-      "suggested_stop": 26095.0,
-      "suggested_target": 29620.0,
-      "risk_reward": 2.0
-    },
-    {
       "ticker": "APOLLOHOSP.NS",
       "close": 8944.5,
       "trend_ok": true,
