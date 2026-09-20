@@ -1,44 +1,10 @@
 """
-This is the piece that was missing: an actual AI model reading data about a
-shortlisted stock and giving a judgment call, the way the ChatGPT/Gemini
-research chats described (moat, risk, confidence) — instead of only mechanical
-math. Uses Gemini's free API. Runs only on the short list the rule-based
-screeners already narrowed down to (never the full market) to stay inside the
-free tier's rate limits.
+Text research on the shortlisted stocks. Uses Groq (much higher free rate
+limit than Gemini) — Gemini is reserved for chart-image reading only
+(src/chart_vision.py), so neither provider's free tier gets overloaded.
 """
-import os
-import json
-import time
-import requests
 from . import data, news
-
-GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent"
-
-
-def _call_gemini(prompt, retries=3):
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return "(AI research skipped — no GEMINI_API_KEY secret set yet)"
-    last_error = None
-    for attempt in range(retries):
-        try:
-            resp = requests.post(
-                f"{GEMINI_URL}?key={api_key}",
-                json={"contents": [{"parts": [{"text": prompt}]}]},
-                timeout=30,
-            )
-            if resp.status_code in (429, 503):
-                # rate-limited or momentarily overloaded — back off and retry
-                time.sleep(8 * (attempt + 1))
-                last_error = f"{resp.status_code} on attempt {attempt + 1}"
-                continue
-            resp.raise_for_status()
-            out = resp.json()
-            return out["candidates"][0]["content"]["parts"][0]["text"].strip()
-        except Exception as e:
-            last_error = e
-            time.sleep(4)
-    return f"(AI research unavailable after retries: {last_error})"
+from .llm_text import call_groq
 
 
 def research_cash_flow_candidate(hit):
@@ -55,7 +21,7 @@ Recent headlines:
 {headline_text}
 
 In under 70 words: is this a reasonable short-term swing candidate or not, whether the headlines support or contradict the technical setup, the single biggest risk to watch this week, and a confidence word (High/Medium/Low). Do not tell the user to buy — just give your read."""
-    return _call_gemini(prompt)
+    return call_groq(prompt)
 
 
 def research_wealth_candidate(hit):
@@ -75,4 +41,4 @@ Recent headlines:
 {headline_text}
 
 In under 100 words: does this look like a business with a real durable advantage (moat) worth researching further for a multi-year hold, whether recent news raises any concern, the biggest red flag or open question, and a confidence word (High/Medium/Low). Do not tell the user to buy — just give your honest read, including reasons to be skeptical."""
-    return _call_gemini(prompt)
+    return call_groq(prompt)
