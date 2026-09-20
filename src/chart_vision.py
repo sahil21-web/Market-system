@@ -8,6 +8,7 @@ inside the free API rate limit.
 import os
 import io
 import base64
+import time
 import requests
 import matplotlib
 matplotlib.use("Agg")
@@ -35,7 +36,7 @@ def _make_chart_png_b64(ticker, days=90):
     return base64.b64encode(buf.read()).decode("utf-8")
 
 
-def read_chart(ticker):
+def read_chart(ticker, retries=3):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         return "(chart reading skipped — no GEMINI_API_KEY secret set)"
@@ -53,21 +54,29 @@ def read_chart(ticker):
         "if nothing stands out), and a confidence word (High/Medium/Low). "
         "Be honest — don't force a pattern that isn't there."
     )
-    try:
-        resp = requests.post(
-            f"{GEMINI_VISION_URL}?key={api_key}",
-            json={
-                "contents": [{
-                    "parts": [
-                        {"text": prompt},
-                        {"inline_data": {"mime_type": "image/png", "data": img_b64}},
-                    ]
-                }]
-            },
-            timeout=45,
-        )
-        resp.raise_for_status()
-        out = resp.json()
-        return out["candidates"][0]["content"]["parts"][0]["text"].strip()
-    except Exception as e:
-        return f"(chart reading unavailable right now: {e})"
+    last_error = None
+    for attempt in range(retries):
+        try:
+            resp = requests.post(
+                f"{GEMINI_VISION_URL}?key={api_key}",
+                json={
+                    "contents": [{
+                        "parts": [
+                            {"text": prompt},
+                            {"inline_data": {"mime_type": "image/png", "data": img_b64}},
+                        ]
+                    }]
+                },
+                timeout=45,
+            )
+            if resp.status_code in (429, 503):
+                time.sleep(8 * (attempt + 1))
+                last_error = f"{resp.status_code} on attempt {attempt + 1}"
+                continue
+            resp.raise_for_status()
+            out = resp.json()
+            return out["candidates"][0]["content"]["parts"][0]["text"].strip()
+        except Exception as e:
+            last_error = e
+            time.sleep(4)
+    return f"(chart reading unavailable after retries: {last_error})"
