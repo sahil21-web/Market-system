@@ -7,6 +7,7 @@ target/R:R) -> exit monitor -> AI text read + AI chart read on the top picks
 import sys
 import os
 import json
+import time
 from datetime import date
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
@@ -69,7 +70,9 @@ def build_message():
         lines.append("AI READ ON TOP 3 (text + chart):")
         for h in hits[:3]:
             text_take = ai_research.research_cash_flow_candidate(h)
+            time.sleep(3)
             chart_take = chart_vision.read_chart(h["ticker"])
+            time.sleep(3)
             lines.append(f"  {h['ticker']}:")
             lines.append(f"    Text read: {text_take}")
             lines.append(f"    Chart read: {chart_take}")
