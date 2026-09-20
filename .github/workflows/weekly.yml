@@ -1,32 +1,39 @@
-name: SMIS Weekly Multibagger Audit
+name: Weekly Wealth Screen
 
 on:
   schedule:
-    # 10:00 AM IST Saturday (04:30 UTC)
-    - cron: '30 4 * * 6'
-  workflow_dispatch:
+    # 03:00 UTC Saturday = 8:30 AM IST Saturday
+    - cron: "0 3 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
-  weekly-scan:
+  run-weekly:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.11"
 
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - name: Run Weekly Script
+      - name: Run weekly screen
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python scripts/run_weekly.py
+
+      - name: Commit log file back to repo
+        run: |
+          git config user.name "market-system-bot"
+          git config user.email "actions@github.com"
+          git add logs/
+          git diff --cached --quiet || git commit -m "Weekly run $(date -I)"
+          git push
