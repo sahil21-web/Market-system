@@ -1,81 +1,44 @@
-import os
-import time
-import base64
-import requests
-from src.llm_text import query_text_llm
+"""
+Text research on the shortlisted stocks. Uses Groq (much higher free rate
+limit than Gemini) — Gemini is reserved for chart-image reading only
+(src/chart_vision.py), so neither provider's free tier gets overloaded.
+"""
+from . import data, news
+from .llm_text import call_groq
 
-def read_chart_image(image_path: str, prompt: str = "Analyze this stock chart. Summarize trend, support/resistance levels, and key indicators.") -> str:
-    """
-    Performs vision analysis on a chart image via Gemini REST API with exponential backoff retries.
-    """
-    gemini_key = os.getenv("GEMINI_API_KEY")
-    if not gemini_key:
-        return "(Chart read unavailable: GEMINI_API_KEY not set)"
 
-    if not os.path.exists(image_path):
-        return "(Chart read unavailable: Image file not found)"
+def research_cash_flow_candidate(hit):
+    """hit = one dict from cash_screener.run_screen()"""
+    headlines = news.get_recent_headlines(hit["ticker"], limit=5)
+    headline_text = "\n".join(f"- {h}" for h in headlines) if headlines else "(no recent headlines found)"
+    prompt = f"""You are a cautious markets research assistant, not a salesperson.
+Stock: {hit['ticker']}
+Technical facts (already calculated, trust these, don't invent new numbers):
+- Last close: {hit['close']}
+- Passed {hit['checks_passed']}/3 momentum checks (trend, RSI cross, volume)
+- Suggested stop: {hit['suggested_stop']}, target: {hit.get('suggested_target')}, R:R {hit.get('risk_reward')}
+Recent headlines:
+{headline_text}
 
-    try:
-        with open(image_path, "rb") as f:
-            image_bytes = f.read()
-            encoded_image = base64.b64encode(image_bytes).decode("utf-8")
-    except Exception as e:
-        return f"(Chart read unavailable: Failed to read image file - {e})"
+In under 70 words: is this a reasonable short-term swing candidate or not, whether the headlines support or contradict the technical setup, the single biggest risk to watch this week, and a confidence word (High/Medium/Low). Do not tell the user to buy — just give your read."""
+    return call_groq(prompt)
 
-    payload = {
-        "contents": [{
-            "parts": [
-                {"text": prompt},
-                {
-                    "inline_data": {
-                        "mime_type": "image/png",
-                        "data": encoded_image
-                    }
-                }
-            ]
-        }]
-    }
-    headers = {"Content-Type": "application/json"}
 
-    models_to_try = ["gemini-2.5-flash", "gemini-1.5-flash", "gemini-2.0-flash"]
+def research_wealth_candidate(hit):
+    """hit = one dict from wealth_screener.run_screen()"""
+    info = data.get_info(hit["ticker"])
+    business = info.get("longBusinessSummary", "")[:600]
+    headlines = news.get_recent_headlines(hit["ticker"], limit=5)
+    headline_text = "\n".join(f"- {h}" for h in headlines) if headlines else "(no recent headlines found)"
+    prompt = f"""You are a cautious long-term equity research assistant, not a salesperson.
+Stock: {hit['ticker']}
+Fundamental facts (already calculated, trust these):
+- ROE: {hit['roe_pct']}%
+- Revenue growth: {hit['revenue_growth_pct']}%
+- Debt/Equity: {hit['debt_to_equity']}
+Business description: {business}
+Recent headlines:
+{headline_text}
 
-    for model_name in models_to_try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={gemini_key}"
-        for attempt in range(1, 4):  # Exponential backoff (2s, 4s, 8s)
-            try:
-                response = requests.post(url, headers=headers, json=payload, timeout=30)
-                if response.status_code == 200:
-                    data = response.json()
-                    candidates = data.get("candidates", [])
-                    if candidates:
-                        parts = candidates[0].get("content", {}).get("parts", [])
-                        text_res = "".join([p.get("text", "") for p in parts if "text" in p])
-                        if text_res:
-                            return text_res.strip()
-                elif response.status_code in (503, 429, 500):
-                    time.sleep(2 ** attempt)
-                    continue
-                else:
-                    break  # Move to next model if non-retriable error
-            except Exception:
-                time.sleep(2 ** attempt)
-
-    return "(chart reading unavailable after retries: Service temporary overload)"
-
-def generate_stock_research(ticker: str, news_context: str = "", chart_image_path: str = None) -> dict:
-    """
-    Runs combined text AI research via Groq and optional chart image reading via Gemini Vision.
-    """
-    prompt = f"Analyze stock ticker: {ticker}.\nNews/Context:\n{news_context}\n\nProvide core bullish/bearish arguments, valuation insights, and key risk factors."
-    
-    text_analysis = query_text_llm(prompt)
-    
-    chart_analysis = "No chart provided."
-    if chart_image_path and os.path.exists(chart_image_path):
-        chart_analysis = read_chart_image(chart_image_path)
-
-    return {
-        "ticker": ticker,
-        "text_research": text_analysis,
-        "chart_research": chart_analysis
-    }
+In under 100 words: does this look like a business with a real durable advantage (moat) worth researching further for a multi-year hold, whether recent news raises any concern, the biggest red flag or open question, and a confidence word (High/Medium/Low). Do not tell the user to buy — just give your honest read, including reasons to be skeptical."""
+    return call_groq(prompt)
