@@ -39,18 +39,25 @@ def screen_stock(ticker):
     checks_passed = sum([trend_ok, rsi_cross, volume_ok])
 
     if checks_passed >= 2:
-        # simple ATR-based suggested stop, for reference only
+        # ATR-based stop, and a target built to a fixed 2:1 reward:risk from
+        # that same ATR distance — this is a constructed R:R, not a "found"
+        # resistance level, and is labelled as such.
         high_low = df["High"] - df["Low"]
         atr14 = high_low.rolling(14).mean().iloc[-1]
-        suggested_stop = round(float(last["Close"] - 2 * atr14), 2)
+        close_price = float(last["Close"])
+        suggested_stop = round(close_price - 2 * atr14, 2)
+        risk = close_price - suggested_stop
+        suggested_target = round(close_price + 2 * risk, 2)  # 2:1 reward:risk by construction
         return {
             "ticker": ticker,
-            "close": round(float(last["Close"]), 2),
+            "close": round(close_price, 2),
             "trend_ok": trend_ok,
             "rsi_cross": rsi_cross,
             "volume_ok": volume_ok,
             "checks_passed": checks_passed,
             "suggested_stop": suggested_stop,
+            "suggested_target": suggested_target,
+            "risk_reward": 2.0,
         }
     return None
 
