@@ -4,9 +4,9 @@
       "nifty_above_50dma": false,
       "nifty_above_200dma": false,
       "india_vix": 11.39,
-      "breadth_pct_above_50dma": 28.8
+      "breadth_pct_above_50dma": 36.5
     },
-    "score": 28.6,
+    "score": 35.7,
     "label": "DEFENSIVE \u2014 new positions only on the strongest setups"
   },
   "global_regime": {
@@ -20,7 +20,7 @@
     "score": 74.1,
     "label": "GLOBAL TAILWIND"
   },
-  "combined_score": 42.2,
+  "combined_score": 47.2,
   "sectors": [
     {
       "sector": "Pharma",
@@ -46,6 +46,17 @@
   ],
   "holdings": [],
   "candidates": [
+    {
+      "ticker": "APARINDS.NS",
+      "close": 18858.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 17315.14,
+      "suggested_target": 21943.72,
+      "risk_reward": 2.0
+    },
     {
       "ticker": "ACUTAAS.NS",
       "close": 3440.3,
@@ -91,6 +102,17 @@
       "risk_reward": 2.0
     },
     {
+      "ticker": "IPCALAB.NS",
+      "close": 2009.6,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1914.86,
+      "suggested_target": 2199.08,
+      "risk_reward": 2.0
+    },
+    {
       "ticker": "EMCURE.NS",
       "close": 2003.8,
       "trend_ok": true,
@@ -110,6 +132,17 @@
       "checks_passed": 3,
       "suggested_stop": 1749.73,
       "suggested_target": 1972.54,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AUROPHARMA.NS",
+      "close": 1734.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1656.11,
+      "suggested_target": 1889.78,
       "risk_reward": 2.0
     },
     {
@@ -267,6 +300,28 @@
       "risk_reward": 2.0
     },
     {
+      "ticker": "ABBOTINDIA.NS",
+      "close": 27270.0,
+      "trend_ok": false,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 26095.0,
+      "suggested_target": 29620.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APOLLOHOSP.NS",
+      "close": 8944.5,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 8676.86,
+      "suggested_target": 9479.78,
+      "risk_reward": 2.0
+    },
+    {
       "ticker": "ALKEM.NS",
       "close": 5466.5,
       "trend_ok": false,
@@ -289,14 +344,14 @@
       "risk_reward": 2.0
     },
     {
-      "ticker": "APARINDS.NS",
-      "close": NaN,
+      "ticker": "CEATLTD.NS",
+      "close": 3468.9,
       "trend_ok": false,
       "rsi_cross": true,
       "volume_ok": true,
       "checks_passed": 2,
-      "suggested_stop": NaN,
-      "suggested_target": NaN,
+      "suggested_stop": 3344.4,
+      "suggested_target": 3717.9,
       "risk_reward": 2.0
     },
     {
@@ -308,6 +363,17 @@
       "checks_passed": 2,
       "suggested_stop": 3055.83,
       "suggested_target": 3508.44,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWDULUX.NS",
+      "close": 3188.8,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 3032.46,
+      "suggested_target": 3501.48,
       "risk_reward": 2.0
     },
     {
@@ -333,6 +399,17 @@
       "risk_reward": 2.0
     },
     {
+      "ticker": "GLENMARK.NS",
+      "close": 2447.4,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 2340.9,
+      "suggested_target": 2660.4,
+      "risk_reward": 2.0
+    },
+    {
       "ticker": "HYUNDAI.NS",
       "close": 2208.8,
       "trend_ok": true,
@@ -344,6 +421,17 @@
       "risk_reward": 2.0
     },
     {
+      "ticker": "COROMANDEL.NS",
+      "close": 1999.5,
+      "trend_ok": false,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 1922.39,
+      "suggested_target": 2153.72,
+      "risk_reward": 2.0
+    },
+    {
       "ticker": "ATHERENERG.NS",
       "close": 1640.0,
       "trend_ok": true,
@@ -352,6 +440,17 @@
       "checks_passed": 2,
       "suggested_stop": 1519.97,
       "suggested_target": 1880.06,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BBTC.NS",
+      "close": 1512.1,
+      "trend_ok": false,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 1422.84,
+      "suggested_target": 1690.62,
       "risk_reward": 2.0
     },
     {
@@ -374,6 +473,28 @@
       "checks_passed": 2,
       "suggested_stop": 975.41,
       "suggested_target": 1230.38,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASAHIINDIA.NS",
+      "close": 961.05,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 919.82,
+      "suggested_target": 1043.51,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KIMS.NS",
+      "close": 809.85,
+      "trend_ok": false,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 773.42,
+      "suggested_target": 882.71,
       "risk_reward": 2.0
     },
     {
@@ -407,6 +528,17 @@
       "checks_passed": 2,
       "suggested_stop": 522.81,
       "suggested_target": 607.23,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LICHSGFIN.NS",
+      "close": 548.15,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 514.61,
+      "suggested_target": 615.23,
       "risk_reward": 2.0
     },
     {
@@ -550,39 +682,6 @@
       "checks_passed": 2,
       "suggested_stop": 83.17,
       "suggested_target": 91.42,
-      "risk_reward": 2.0
-    },
-    {
-      "ticker": "IPCALAB.NS",
-      "close": NaN,
-      "trend_ok": false,
-      "rsi_cross": true,
-      "volume_ok": true,
-      "checks_passed": 2,
-      "suggested_stop": NaN,
-      "suggested_target": NaN,
-      "risk_reward": 2.0
-    },
-    {
-      "ticker": "KIMS.NS",
-      "close": 809.85,
-      "trend_ok": false,
-      "rsi_cross": true,
-      "volume_ok": true,
-      "checks_passed": 2,
-      "suggested_stop": 773.42,
-      "suggested_target": 882.71,
-      "risk_reward": 2.0
-    },
-    {
-      "ticker": "LICHSGFIN.NS",
-      "close": 548.15,
-      "trend_ok": true,
-      "rsi_cross": true,
-      "volume_ok": false,
-      "checks_passed": 2,
-      "suggested_stop": 514.61,
-      "suggested_target": 615.23,
       "risk_reward": 2.0
     },
     {
