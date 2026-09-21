@@ -20,6 +20,6 @@ def send_telegram(message: str):
     chunks = [message[i:i + 3500] for i in range(0, len(message), 3500)] or [message]
     for chunk in chunks:
         try:
-            requests.post(url, json={"chat_id": chat_id, "text": chunk}, timeout=15)
+            requests.post(url, json={"chat_id": chat_id, "text": chunk, "parse_mode": "Markdown"}, timeout=15)
         except Exception as e:
             print(f"Telegram send failed: {e}")
