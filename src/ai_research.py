@@ -1,7 +1,18 @@
 """
-Text research on the shortlisted stocks. Uses Groq (much higher free rate
-limit than Gemini) — Gemini is reserved for chart-image reading only
-(src/chart_vision.py), so neither provider's free tier gets overloaded.
+AI reads the shortlist (never the full market, to stay inside free-tier
+limits) and gives a judgment call — moat, risk, confidence — the way the
+research chats described, instead of only mechanical math.
+
+Text reasoning runs on Groq (src/llm_text.py) since its free tier is far
+more generous than Gemini's. Chart images run separately on Gemini
+(src/chart_vision.py) since that needs vision, which Groq's free models
+don't reliably offer.
+
+Updated to match the newer cash_screener.py's weighted-category schema
+(score/label/stars/breakdown/risk_notes) instead of the older binary
+checks_passed/checks_total — that mismatch (this file reading a field the
+new screener no longer returns) was the cause of the daily run's KeyError
+and exit code 1.
 """
 from . import data, news
 from .llm_text import call_groq
@@ -11,11 +22,16 @@ def research_cash_flow_candidate(hit):
     """hit = one dict from cash_screener.run_screen()"""
     headlines = news.get_recent_headlines(hit["ticker"], limit=5)
     headline_text = "\n".join(f"- {h}" for h in headlines) if headlines else "(no recent headlines found)"
+    b = hit.get("breakdown", {})
+    breakdown_text = ", ".join(f"{k.replace('_', ' ').title()} {v}" for k, v in b.items()) or "n/a"
+    risk_notes = ", ".join(hit.get("risk_notes") or []) or "none flagged"
     prompt = f"""You are a cautious markets research assistant, not a salesperson.
 Stock: {hit['ticker']}
 Technical facts (already calculated, trust these, don't invent new numbers):
 - Last close: {hit['close']}
-- Passed {hit['checks_passed']}/3 momentum checks (trend, RSI cross, volume)
+- Composite score: {hit['score']}/100 ({hit.get('label', 'n/a')})
+- Category breakdown: {breakdown_text}
+- Risk flags already detected: {risk_notes}
 - Suggested stop: {hit['suggested_stop']}, target: {hit.get('suggested_target')}, R:R {hit.get('risk_reward')}
 Recent headlines:
 {headline_text}
