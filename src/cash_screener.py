@@ -18,7 +18,7 @@ MAX_PRICE_ACTION = 15
 MAX_FUNDAMENTALS = 10
 RAW_MAX = MAX_TREND + MAX_MOMENTUM + MAX_VOLUME + MAX_PRICE_ACTION + MAX_FUNDAMENTALS  # 80
 
-MIN_SCORE_TO_SHOW = 65  # matches the professional rubric's "below 70 = ignore" spirit
+MIN_SCORE_TO_SHOW = 55  # show down to "early signal" tier; labels below distinguish confidence
 
 
 def _rsi(series, period=14):
@@ -143,15 +143,14 @@ def screen_stock(ticker):
 
     final_score = round(max(0, scaled_score - risk_penalty), 1)
 
-    if final_score < MIN_SCORE_TO_SHOW:
-        return None
-
     if final_score >= 85:
         label, stars = "Exceptional", "★★★★★"
     elif final_score >= 75:
         label, stars = "Strong", "★★★★"
-    else:
+    elif final_score >= 65:
         label, stars = "Watchlist", "★★★"
+    else:
+        label, stars = "Early / unconfirmed", "★★"
 
     atr14 = float((df["High"] - df["Low"]).rolling(14).mean().iloc[-1])
     suggested_stop = round(close - 2 * atr14, 2)
