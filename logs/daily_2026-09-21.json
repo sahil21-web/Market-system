@@ -1,0 +1,457 @@
+{
+  "india_regime": {
+    "components": {
+      "nifty_above_50dma": false,
+      "nifty_above_200dma": false,
+      "india_vix": 11.25,
+      "breadth_pct_above_50dma": 35.1
+    },
+    "score": 35.7,
+    "label": "DEFENSIVE \u2014 new positions only on the strongest setups"
+  },
+  "global_regime": {
+    "components": {
+      "sp500_above_50dma": true,
+      "nasdaq_above_50dma": true,
+      "us_vix": 15.02,
+      "crude_1m_change_pct": 4.39,
+      "dxy_1m_change_pct": 1.49
+    },
+    "score": 82.4,
+    "label": "GLOBAL TAILWIND"
+  },
+  "combined_score": 49.7,
+  "sectors": [
+    {
+      "sector": "Pharma",
+      "1m_return_pct": 2.29,
+      "3m_return_pct": 9.12,
+      "relative_strength_vs_nifty_1m": 5.66,
+      "score": 6.39
+    },
+    {
+      "sector": "IT",
+      "1m_return_pct": -6.01,
+      "3m_return_pct": 4.35,
+      "relative_strength_vs_nifty_1m": -2.64,
+      "score": 0.21
+    },
+    {
+      "sector": "Bank",
+      "1m_return_pct": -1.78,
+      "3m_return_pct": -2.53,
+      "relative_strength_vs_nifty_1m": 1.59,
+      "score": -2.23
+    }
+  ],
+  "holdings": [],
+  "candidates": [
+    {
+      "ticker": "CONCORDBIO.NS",
+      "close": 1579.4,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1483.27,
+      "suggested_target": 1771.66,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AEGISLOG.NS",
+      "close": 1486.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1364.53,
+      "suggested_target": 1728.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KPIL.NS",
+      "close": 1439.1,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1363.87,
+      "suggested_target": 1589.56,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HOMEFIRST.NS",
+      "close": 1257.7,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1179.64,
+      "suggested_target": 1413.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CARBORUNIV.NS",
+      "close": 1178.9,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1085.89,
+      "suggested_target": 1364.92,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JYOTICNC.NS",
+      "close": 1113.85,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 1024.09,
+      "suggested_target": 1293.37,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDHOTEL.NS",
+      "close": 745.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 717.44,
+      "suggested_target": 800.12,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COHANCE.NS",
+      "close": 460.45,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 427.14,
+      "suggested_target": 527.07,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMMVEE.NS",
+      "close": 340.6,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 316.18,
+      "suggested_target": 389.44,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ENGINERSIN.NS",
+      "close": 285.25,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 3,
+      "suggested_stop": 266.84,
+      "suggested_target": 322.07,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APARINDS.NS",
+      "close": 18945.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 17407.26,
+      "suggested_target": 22020.48,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJHLDNG.NS",
+      "close": 11409.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 11048.49,
+      "suggested_target": 12130.02,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APOLLOHOSP.NS",
+      "close": 8912.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 8646.5,
+      "suggested_target": 9443.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AJANTPHARM.NS",
+      "close": 3542.1,
+      "trend_ok": true,
+      "rsi_cross": false,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 3383.13,
+      "suggested_target": 3860.04,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACUTAAS.NS",
+      "close": 3425.7,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 3204.8,
+      "suggested_target": 3867.5,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLAND.NS",
+      "close": 2940.2,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 2752.26,
+      "suggested_target": 3316.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CAPLIPOINT.NS",
+      "close": 2756.6,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 2547.85,
+      "suggested_target": 3174.1,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLENMARK.NS",
+      "close": 2450.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 2342.11,
+      "suggested_target": 2665.78,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BEML.NS",
+      "close": 2097.9,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 1932.09,
+      "suggested_target": 2429.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMCURE.NS",
+      "close": 2009.3,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 1891.15,
+      "suggested_target": 2245.6,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIPORTS.NS",
+      "close": 1787.1,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 1712.9,
+      "suggested_target": 1935.5,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AUROPHARMA.NS",
+      "close": 1713.4,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 1638.39,
+      "suggested_target": 1863.42,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MEDANTA.NS",
+      "close": 1508.1,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 1404.57,
+      "suggested_target": 1715.16,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACE.NS",
+      "close": 1230.4,
+      "trend_ok": true,
+      "rsi_cross": false,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 1145.38,
+      "suggested_target": 1400.44,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSL.NS",
+      "close": 751.45,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 705.24,
+      "suggested_target": 843.87,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDGN.NS",
+      "close": 595.95,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 566.36,
+      "suggested_target": 655.13,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LICHSGFIN.NS",
+      "close": 568.0,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 531.61,
+      "suggested_target": 640.78,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AIIL.NS",
+      "close": 559.4,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 522.65,
+      "suggested_target": 632.9,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLFOOD.NS",
+      "close": 487.05,
+      "trend_ok": true,
+      "rsi_cross": false,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 464.79,
+      "suggested_target": 531.57,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACMESOLAR.NS",
+      "close": 458.1,
+      "trend_ok": true,
+      "rsi_cross": false,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 423.71,
+      "suggested_target": 526.88,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWINFRA.NS",
+      "close": 349.6,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 329.34,
+      "suggested_target": 390.12,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ETERNAL.NS",
+      "close": 335.9,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 322.53,
+      "suggested_target": 362.64,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AEGISVOPAK.NS",
+      "close": 318.3,
+      "trend_ok": true,
+      "rsi_cross": false,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 291.32,
+      "suggested_target": 372.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CGCL.NS",
+      "close": 268.85,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 248.33,
+      "suggested_target": 309.89,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CUB.NS",
+      "close": 234.94,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 219.27,
+      "suggested_target": 266.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANDHANBNK.NS",
+      "close": 179.0,
+      "trend_ok": false,
+      "rsi_cross": true,
+      "volume_ok": true,
+      "checks_passed": 2,
+      "suggested_stop": 169.01,
+      "suggested_target": 198.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DEVYANI.NS",
+      "close": 143.22,
+      "trend_ok": true,
+      "rsi_cross": true,
+      "volume_ok": false,
+      "checks_passed": 2,
+      "suggested_stop": 135.8,
+      "suggested_target": 158.06,
+      "risk_reward": 2.0
+    }
+  ]
+}
