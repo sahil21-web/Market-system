@@ -3,11 +3,6 @@ Runs automatically every trading day after market close (via GitHub Actions).
 Does: India regime + global regime -> sector ranking -> cash-flow screen
 (weighted 0-100 score, not simple pass/fail) -> exit monitor -> AI text read +
 AI pattern-library chart read on the top picks -> one clean Telegram message.
-
-Formatting note: this was rewritten to use HTML tags (<b>, <i>) instead of
-Markdown (*bold*, _italic_) — alerts.py sends every message with
-parse_mode="HTML", so Markdown syntax was rendering as literal asterisks
-and underscores on your phone instead of actual bold/italic text.
 """
 import sys
 import os
@@ -18,7 +13,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from src import (
     regime, global_regime, sector_rotation, cash_screener,
-    exit_monitor, alerts, ai_research, chart_vision, formatting,
+    exit_monitor, alerts, ai_research, chart_vision,
 )
 
 
@@ -34,7 +29,7 @@ def _regime_emoji(score):
 
 def build_message():
     today = date.today().isoformat()
-    lines = [f"📊 <b>DAILY MARKET BRIEF</b> — {today}", ""]
+    lines = [f"📊 *DAILY MARKET BRIEF* — {today}", ""]
 
     india = regime.compute_regime()
     glob = global_regime.compute_global_regime()
@@ -45,83 +40,55 @@ def build_message():
 
     sectors = sector_rotation.rank_sectors()
     if sectors:
-        lines.append("📈 <b>TOP SECTORS</b>:")
+        lines.append("📈 TOP SECTORS:")
         for s in sectors[:5]:
             arrow = "▲" if s["1m_return_pct"] > 0 else "▼"
-            lines.append(f"   {arrow} {formatting.escape(s['sector'])} — 1M {s['1m_return_pct']}%, 3M {s['3m_return_pct']}%")
+            lines.append(f"   {arrow} {s['sector']} — 1M {s['1m_return_pct']}%, 3M {s['3m_return_pct']}%")
         lines.append("")
 
     holdings_results = exit_monitor.run_monitor()
-    lines.append("💼 <b>YOUR HOLDINGS</b>:")
+    lines.append("💼 YOUR HOLDINGS:")
     if holdings_results:
         for h in holdings_results:
             if h.get("status") == "NO DATA":
-                lines.append(f"   ⚪ {formatting.escape(h['ticker'])}: no data")
+                lines.append(f"   ⚪ {h['ticker']}: no data")
             else:
-                lines.append(f"   {h['status']} {formatting.escape(h['ticker'])} — close {h['close']}, stop {h.get('trailing_stop_level')}")
+                lines.append(f"   {h['status']} {h['ticker']} — close {h['close']}, stop {h.get('trailing_stop_level')}")
     else:
         lines.append("   none configured in config/portfolio.json")
     lines.append("")
 
-    # Weighted-score cash-flow candidates — shows every scanned stock's
-    # score, not just ones clearing a bar, so "the system did nothing" never
-    # looks the same as "the system ran and found nothing good."
-    all_hits = cash_screener.run_screen()
-    confirmed = [h for h in all_hits if h["score"] >= 65]
-    early = [h for h in all_hits if 55 <= h["score"] < 65]
-
-    lines.append(f"⚡ <b>CASH-FLOW WATCHLIST</b> ({len(confirmed)} confirmed, {len(early)} early, {len(all_hits)} scanned):")
+    # Weighted-score cash-flow candidates
+    hits = cash_screener.run_screen()
+    lines.append(f"⚡ CASH-FLOW WATCHLIST ({len(hits)} scored ≥65/100):")
     if combined < 25:
-        lines.append("   🔴 Regime is RISK-OFF — sit out today, even if candidates appear below.")
-    if confirmed:
-        for h in confirmed[:8]:
+        lines.append("   🔴 Regime is RISK-OFF — sit out today.")
+    elif not hits:
+        lines.append("   No candidates cleared the bar today. No trade is a valid outcome.")
+    else:
+        for h in hits[:8]:
             b = h["breakdown"]
-            risk_txt = f" ⚠️ {formatting.escape(', '.join(h['risk_notes']))}" if h["risk_notes"] else ""
+            risk_txt = f" ⚠️ {', '.join(h['risk_notes'])}" if h["risk_notes"] else ""
             lines.append(
-                f"{h['stars']} <b>{formatting.escape(h['ticker'])}</b> — {h['score']}/100 ({h['label']}){risk_txt}\n"
+                f"{h['stars']} *{h['ticker']}* — {h['score']}/100 ({h['label']}){risk_txt}\n"
                 f"   Entry ~{h['close']} | Stop {h['suggested_stop']} | Target {h['suggested_target']} | R:R {h['risk_reward']}\n"
                 f"   Trend {b['trend']}, Momentum {b['momentum']}, Volume {b['volume']}, "
                 f"Price Action {b['price_action']}, Fundamentals {b['fundamentals']}"
             )
-    else:
-        lines.append("   No confirmed setups today — that's a normal, valid outcome, not a broken screen.")
-
-    if early:
         lines.append("")
-        lines.append("🟡 <b>EARLY / UNCONFIRMED</b> (score 55-64, worth watching, not yet actionable):")
-        for h in early[:5]:
-            lines.append(f"   {formatting.escape(h['ticker'])} — {h['score']}/100 (close {h['close']})")
-
-    if not confirmed and not early and all_hits:
-        # Nothing even hit the early-signal bar — show the actual top scorers
-        # anyway so "nothing qualified" is visibly different from "nothing ran."
-        lines.append("")
-        lines.append("📋 <b>TOP SCORED TODAY</b> (below the actionable bar, shown for reference):")
-        for h in all_hits[:5]:
-            b = h["breakdown"]
-            lines.append(
-                f"   {formatting.escape(h['ticker'])} — {h['score']}/100 "
-                f"(Trend {b['trend']}, Momentum {b['momentum']}, Volume {b['volume']}, "
-                f"Price Action {b['price_action']}, Fundamentals {b['fundamentals']})"
-            )
-
-    hits = confirmed if confirmed else (early if early else all_hits[:3])
-    if hits:
-        lines.append("")
-        lines.append("🧠 <b>AI READ ON TOP 3</b>:")
+        lines.append("🧠 AI READ ON TOP 3:")
         for h in hits[:3]:
             text_take = ai_research.research_cash_flow_candidate(h)
             chart_take = chart_vision.read_chart(h["ticker"])
-            lines.append(f"<b>{formatting.escape(h['ticker'])}</b>")
-            lines.append(f"   Text: {formatting.escape(text_take)}")
-            lines.append(f"   Chart: {formatting.escape(chart_take)}")
+            lines.append(f"*{h['ticker']}*")
+            lines.append(f"   Text: {text_take}")
+            lines.append(f"   Chart: {chart_take}")
     lines.append("")
-    lines.append("<i>Screen + AI opinion, not a buy order. You decide.</i>")
+    lines.append("_Screen + AI opinion, not a buy order. You decide._")
 
     raw = {
         "india_regime": india, "global_regime": glob, "combined_score": combined,
-        "sectors": sectors, "holdings": holdings_results,
-        "confirmed_candidates": confirmed, "early_candidates": early, "all_scanned": all_hits,
+        "sectors": sectors, "holdings": holdings_results, "candidates": hits,
     }
     return "\n".join(lines), raw
 
