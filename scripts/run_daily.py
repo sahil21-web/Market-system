@@ -58,15 +58,18 @@ def build_message():
         lines.append("   none configured in config/portfolio.json")
     lines.append("")
 
-    # Weighted-score cash-flow candidates
-    hits = cash_screener.run_screen()
-    lines.append(f"⚡ CASH-FLOW WATCHLIST ({len(hits)} scored ≥65/100):")
+    # Weighted-score cash-flow candidates — now shows every scanned stock's
+    # score, not just ones clearing a bar, so "the system did nothing" never
+    # looks the same as "the system ran and found nothing good."
+    all_hits = cash_screener.run_screen()
+    confirmed = [h for h in all_hits if h["score"] >= 65]
+    early = [h for h in all_hits if 55 <= h["score"] < 65]
+
+    lines.append(f"⚡ CASH-FLOW WATCHLIST ({len(confirmed)} confirmed, {len(early)} early, {len(all_hits)} scanned):")
     if combined < 25:
-        lines.append("   🔴 Regime is RISK-OFF — sit out today.")
-    elif not hits:
-        lines.append("   No candidates cleared the bar today. No trade is a valid outcome.")
-    else:
-        for h in hits[:8]:
+        lines.append("   🔴 Regime is RISK-OFF — sit out today, even if candidates appear below.")
+    if confirmed:
+        for h in confirmed[:8]:
             b = h["breakdown"]
             risk_txt = f" ⚠️ {', '.join(h['risk_notes'])}" if h["risk_notes"] else ""
             lines.append(
@@ -75,6 +78,30 @@ def build_message():
                 f"   Trend {b['trend']}, Momentum {b['momentum']}, Volume {b['volume']}, "
                 f"Price Action {b['price_action']}, Fundamentals {b['fundamentals']}"
             )
+    else:
+        lines.append("   No confirmed setups today — that's a normal, valid outcome, not a broken screen.")
+
+    if early:
+        lines.append("")
+        lines.append("🟡 EARLY / UNCONFIRMED (score 55-64, worth watching, not yet actionable):")
+        for h in early[:5]:
+            lines.append(f"   {h['ticker']} — {h['score']}/100 (close {h['close']})")
+
+    if not confirmed and not early and all_hits:
+        # Nothing even hit the early-signal bar — show the actual top scorers
+        # anyway so "nothing qualified" is visibly different from "nothing ran."
+        lines.append("")
+        lines.append("📋 TOP SCORED TODAY (below the actionable bar, shown for reference):")
+        for h in all_hits[:5]:
+            b = h["breakdown"]
+            lines.append(
+                f"   {h['ticker']} — {h['score']}/100 "
+                f"(Trend {b['trend']}, Momentum {b['momentum']}, Volume {b['volume']}, "
+                f"Price Action {b['price_action']}, Fundamentals {b['fundamentals']})"
+            )
+
+    hits = confirmed if confirmed else (early if early else all_hits[:3])
+    if hits:
         lines.append("")
         lines.append("🧠 AI READ ON TOP 3:")
         for h in hits[:3]:
@@ -88,7 +115,8 @@ def build_message():
 
     raw = {
         "india_regime": india, "global_regime": glob, "combined_score": combined,
-        "sectors": sectors, "holdings": holdings_results, "candidates": hits,
+        "sectors": sectors, "holdings": holdings_results,
+        "confirmed_candidates": confirmed, "early_candidates": early, "all_scanned": all_hits,
     }
     return "\n".join(lines), raw
 
