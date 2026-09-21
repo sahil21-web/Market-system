@@ -1,54 +1,66 @@
 """
 Runs automatically once a week (Saturday morning) via GitHub Actions.
-Does: fundamental wealth screen -> AI text read (with real news headlines) +
-AI chart read on top candidates -> one Telegram message.
+Does: fundamental wealth screen + recovery ("fallen but fundamentally
+strong") screen -> AI text read (with real news headlines) + AI chart read on
+top candidates -> one clean Telegram message.
 """
 import sys
 import os
 import json
-import time
 from datetime import date
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from src import wealth_screener, alerts, ai_research, chart_vision, sector_rotation
+from src import wealth_screener, recovery_screener, alerts, ai_research, chart_vision, sector_rotation
 
 
 def build_message():
     today = date.today().isoformat()
-    lines = [f"📈 WEEKLY WEALTH SCREEN — {today}", ""]
+    lines = [f"📈 *WEEKLY WEALTH SCREEN* — {today}", ""]
 
     sectors = sector_rotation.rank_sectors()
     if sectors:
-        lines.append("SECTOR CONTEXT (top 5 by 1M/3M momentum):")
+        lines.append("📊 SECTOR CONTEXT (top 5):")
         for s in sectors[:5]:
-            lines.append(f"  {s['sector']}: score {s['score']}")
+            lines.append(f"   {s['sector']} — score {s['score']}")
         lines.append("")
 
     hits = wealth_screener.run_screen()
-    lines.append(f"{len(hits)} companies passed 2+ of 3 checks (ROE >=15%, revenue growth >=15%, D/E <=1.0):")
+    lines.append(f"💎 WEALTH CANDIDATES: {len(hits)} companies passed 2+ of 3 checks (ROE ≥15%, revenue growth ≥15%, D/E ≤1.0):")
     if not hits:
-        lines.append("  None this week — that's fine, quality bars stay high on purpose.")
+        lines.append("   None this week — that's fine, quality bars stay high on purpose.")
     else:
         for h in hits[:15]:
             lines.append(
-                f"  {h['ticker']}: ROE {h['roe_pct']}%, revenue growth {h['revenue_growth_pct']}%, "
+                f"   {h['ticker']}: ROE {h['roe_pct']}%, growth {h['revenue_growth_pct']}%, "
                 f"D/E {h['debt_to_equity']}, checks {h['checks_passed']}/3"
             )
         lines.append("")
-        lines.append("AI RESEARCH READ (text + chart, top candidates):")
+        lines.append("🧠 AI RESEARCH READ (top candidates):")
         for h in hits[:8]:
             text_take = ai_research.research_wealth_candidate(h)
-            time.sleep(3)
             chart_take = chart_vision.read_chart(h["ticker"])
-            time.sleep(3)
-            lines.append(f"  {h['ticker']}:")
-            lines.append(f"    Text read: {text_take}")
-            lines.append(f"    Chart read: {chart_take}")
+            lines.append(f"*{h['ticker']}*")
+            lines.append(f"   Text: {text_take}")
+            lines.append(f"   Chart: {chart_take}")
     lines.append("")
-    lines.append("This is a fundamental filter + AI opinion, not investment advice — do your own read of the business.")
 
-    return "\n".join(lines), {"sectors": sectors, "candidates": hits}
+    # Recovery candidates — "fell more than the business deteriorated"
+    recovery_hits = recovery_screener.run_screen()
+    lines.append(f"📉➡️📈 RECOVERY CANDIDATES: {len(recovery_hits)} fallen-but-fundamentally-intact stocks:")
+    if not recovery_hits:
+        lines.append("   None this week.")
+    else:
+        for h in recovery_hits[:10]:
+            stabilize_note = "stabilizing" if h["selling_stabilizing"] else "still volatile"
+            lines.append(
+                f"   {h['ticker']}: down {h['fall_from_high_pct']}% from 52w high ({h['close']} vs {h['high_52w']}), "
+                f"ROE {h['roe_pct']}%, growth {h['revenue_growth_pct']}%, checks {h['checks_passed']}/3, range {stabilize_note}"
+            )
+    lines.append("")
+    lines.append("_Fundamental filters + AI opinion, not investment advice — do your own read._")
+
+    return "\n".join(lines), {"sectors": sectors, "wealth_candidates": hits, "recovery_candidates": recovery_hits}
 
 
 def main():
