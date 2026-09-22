@@ -1,13 +1,19 @@
 """
 Runs automatically every trading day after market close (via GitHub Actions).
 Does: India regime + global regime -> sector ranking -> cash-flow screen
-(weighted 0-100 score, not simple pass/fail) -> exit monitor -> AI text read +
-AI pattern-library chart read on the top picks -> one clean Telegram message.
+(weighted 0-100 score) -> exit monitor -> AI text read + AI chart read on
+the top picks -> one clean Telegram message.
 
-Formatting note: this was rewritten to use HTML tags (<b>, <i>) instead of
-Markdown (*bold*, _italic_) — alerts.py sends every message with
-parse_mode="HTML", so Markdown syntax was rendering as literal asterisks
-and underscores on your phone instead of actual bold/italic text.
+v3 changes: a live run showed the combined regime score (India 28.6/
+Defensive, Global 91.8/Tailwind -> combined 47.6) still allowing 50
+"confirmed" picks through with no caution shown. Two changes:
+  1. Combined score is now 80% India / 20% Global (was 70/30) — you're
+     trading Indian stocks, so domestic conditions should dominate; global
+     is context, not a vote of equal weight.
+  2. When India itself is Defensive (score < 45, even if not full
+     Risk-Off), the confirmation bar is raised from 75 to 85 and the
+     message explicitly says so — global strength no longer quietly
+     offsets a weak home market.
 """
 import sys
 import os
@@ -20,6 +26,12 @@ from src import (
     regime, global_regime, sector_rotation, cash_screener,
     exit_monitor, alerts, ai_research, chart_vision, formatting,
 )
+
+BASE_CONFIRMED_BAR = 75
+BASE_EARLY_BAR = 60
+DEFENSIVE_CONFIRMED_BAR = 85   # raised bar when India regime itself is weak
+INDIA_DEFENSIVE_THRESHOLD = 45
+RISK_OFF_THRESHOLD = 25
 
 
 def _regime_emoji(score):
@@ -38,9 +50,16 @@ def build_message():
 
     india = regime.compute_regime()
     glob = global_regime.compute_global_regime()
-    combined = round(0.7 * india["score"] + 0.3 * glob["score"], 1)
+    combined = round(0.8 * india["score"] + 0.2 * glob["score"], 1)
     lines.append(f"{_regime_emoji(combined)} REGIME: {combined}/100")
     lines.append(f"   India {india['score']}/100 | Global {glob['score']}/100")
+
+    india_defensive = india["score"] < INDIA_DEFENSIVE_THRESHOLD
+    if india_defensive and india["score"] >= RISK_OFF_THRESHOLD:
+        lines.append(
+            f"   🟠 India regime is Defensive — bar raised to {DEFENSIVE_CONFIRMED_BAR}+ "
+            f"for a confirmed pick today, regardless of the global score."
+        )
     lines.append("")
 
     sectors = sector_rotation.rank_sectors()
@@ -63,18 +82,21 @@ def build_message():
         lines.append("   none configured in config/portfolio.json")
     lines.append("")
 
-    # Weighted-score cash-flow candidates — shows every scanned stock's
-    # score, not just ones clearing a bar, so "the system did nothing" never
-    # looks the same as "the system ran and found nothing good."
     all_hits = cash_screener.run_screen()
-    confirmed = [h for h in all_hits if h["score"] >= 65]
-    early = [h for h in all_hits if 55 <= h["score"] < 65]
 
-    lines.append(f"⚡ <b>CASH-FLOW WATCHLIST</b> ({len(confirmed)} confirmed, {len(early)} early, {len(all_hits)} scanned):")
-    if combined < 25:
-        lines.append("   🔴 Regime is RISK-OFF — sit out today, even if candidates appear below.")
+    confirmed_bar = DEFENSIVE_CONFIRMED_BAR if india_defensive else BASE_CONFIRMED_BAR
+    confirmed = [h for h in all_hits if h["score"] >= confirmed_bar]
+    early = [h for h in all_hits if BASE_EARLY_BAR <= h["score"] < confirmed_bar]
+
+    lines.append(
+        f"⚡ <b>CASH-FLOW WATCHLIST</b> ({len(confirmed)} confirmed @ {confirmed_bar}+, "
+        f"{len(early)} early, {len(all_hits)} scanned):"
+    )
+    if india["score"] < RISK_OFF_THRESHOLD:
+        lines.append("   🔴 India regime is RISK-OFF — sit out today, even if candidates appear below.")
     if confirmed:
-        for h in confirmed[:8]:
+        show_n = 3 if india_defensive else 8
+        for h in confirmed[:show_n]:
             b = h["breakdown"]
             risk_txt = f" ⚠️ {formatting.escape(', '.join(h['risk_notes']))}" if h["risk_notes"] else ""
             lines.append(
@@ -88,13 +110,11 @@ def build_message():
 
     if early:
         lines.append("")
-        lines.append("🟡 <b>EARLY / UNCONFIRMED</b> (score 55-64, worth watching, not yet actionable):")
+        lines.append(f"🟡 <b>EARLY / UNCONFIRMED</b> (score {BASE_EARLY_BAR}-{confirmed_bar - 1}, worth watching, not yet actionable):")
         for h in early[:5]:
             lines.append(f"   {formatting.escape(h['ticker'])} — {h['score']}/100 (close {h['close']})")
 
     if not confirmed and not early and all_hits:
-        # Nothing even hit the early-signal bar — show the actual top scorers
-        # anyway so "nothing qualified" is visibly different from "nothing ran."
         lines.append("")
         lines.append("📋 <b>TOP SCORED TODAY</b> (below the actionable bar, shown for reference):")
         for h in all_hits[:5]:
@@ -120,6 +140,7 @@ def build_message():
 
     raw = {
         "india_regime": india, "global_regime": glob, "combined_score": combined,
+        "confirmed_bar_used": confirmed_bar,
         "sectors": sectors, "holdings": holdings_results,
         "confirmed_candidates": confirmed, "early_candidates": early, "all_scanned": all_hits,
     }
