@@ -1,0 +1,6565 @@
+{
+  "india_regime": {
+    "components": {
+      "nifty_above_50dma": false,
+      "nifty_above_200dma": false,
+      "india_vix": 12.69,
+      "breadth_pct_above_50dma": 0.0
+    },
+    "score": 28.6,
+    "label": "DEFENSIVE \u2014 new positions only on the strongest setups"
+  },
+  "global_regime": {
+    "components": {
+      "sp500_above_50dma": true,
+      "nasdaq_above_50dma": true,
+      "us_vix": 14.96,
+      "crude_1m_change_pct": 12.2,
+      "dxy_1m_change_pct": 1.83
+    },
+    "score": 74.1,
+    "label": "GLOBAL TAILWIND"
+  },
+  "combined_score": 37.7,
+  "no_new_trades": true,
+  "track_record": {
+    "total_logged": 0,
+    "open": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate_pct": null,
+    "avg_win_pct": null,
+    "avg_loss_pct": null
+  },
+  "sectors": [
+    {
+      "sector": "Pharma",
+      "1m_return_pct": 1.75,
+      "3m_return_pct": 8.25,
+      "relative_strength_vs_nifty_1m": 6.97,
+      "score": 5.65
+    },
+    {
+      "sector": "IT",
+      "1m_return_pct": -8.33,
+      "3m_return_pct": 3.21,
+      "relative_strength_vs_nifty_1m": -3.11,
+      "score": -1.41
+    },
+    {
+      "sector": "Bank",
+      "1m_return_pct": -3.61,
+      "3m_return_pct": -4.71,
+      "relative_strength_vs_nifty_1m": 1.61,
+      "score": -4.27
+    }
+  ],
+  "holdings": [],
+  "confirmed_candidates": [],
+  "early_candidates": [
+    {
+      "ticker": "CASTROLIND.NS",
+      "close": NaN,
+      "score": 72.2,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "15.0/15",
+        "price_action": "12.8/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDGN.NS",
+      "close": NaN,
+      "score": 62.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "15.0/15",
+        "price_action": "14.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABDL.NS",
+      "close": NaN,
+      "score": 61.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.9/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    }
+  ],
+  "all_scanned": [
+    {
+      "ticker": "CASTROLIND.NS",
+      "close": NaN,
+      "score": 72.2,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "15.0/15",
+        "price_action": "12.8/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDGN.NS",
+      "close": NaN,
+      "score": 62.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "15.0/15",
+        "price_action": "14.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABDL.NS",
+      "close": NaN,
+      "score": 61.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.9/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ENGINERSIN.NS",
+      "close": NaN,
+      "score": 58.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "13.8/15",
+        "volume": "13.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HBLENGINE.NS",
+      "close": NaN,
+      "score": 58.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "14.5/15",
+        "volume": "10.2/15",
+        "price_action": "15.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACMESOLAR.NS",
+      "close": NaN,
+      "score": 50.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "14.8/15",
+        "volume": "0.8/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LALPATHLAB.NS",
+      "close": NaN,
+      "score": 50.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "4.4/15",
+        "price_action": "11.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIPORTS.NS",
+      "close": NaN,
+      "score": 50.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CAPLIPOINT.NS",
+      "close": NaN,
+      "score": 50.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "close": NaN,
+      "score": 50.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRAPHITE.NS",
+      "close": NaN,
+      "score": 50.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWINFRA.NS",
+      "close": NaN,
+      "score": 50.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JYOTICNC.NS",
+      "close": NaN,
+      "score": 50.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LICHSGFIN.NS",
+      "close": NaN,
+      "score": 49.7,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "4.8/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LGEINDIA.NS",
+      "close": NaN,
+      "score": 49.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "7.7/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LAURUSLABS.NS",
+      "close": NaN,
+      "score": 49.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "14.3/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FINCABLES.NS",
+      "close": NaN,
+      "score": 48.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "13.9/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACE.NS",
+      "close": NaN,
+      "score": 48.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "13.7/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLPHARMA.NS",
+      "close": NaN,
+      "score": 48.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "13.7/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APOLLOHOSP.NS",
+      "close": NaN,
+      "score": 47.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "5.6/15",
+        "price_action": "7.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ETERNAL.NS",
+      "close": NaN,
+      "score": 47.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "13.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AUROPHARMA.NS",
+      "close": NaN,
+      "score": 46.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "12.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSL.NS",
+      "close": NaN,
+      "score": 46.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "3.9/15",
+        "price_action": "15.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CARBORUNIV.NS",
+      "close": NaN,
+      "score": 46.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "12.3/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IKS.NS",
+      "close": NaN,
+      "score": 46.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "12.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMCURE.NS",
+      "close": NaN,
+      "score": 45.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "11.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AEGISLOG.NS",
+      "close": NaN,
+      "score": 44.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "10.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BEML.NS",
+      "close": NaN,
+      "score": 43.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANDHANBNK.NS",
+      "close": NaN,
+      "score": 43.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CGCL.NS",
+      "close": NaN,
+      "score": 43.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CYIENT.NS",
+      "close": NaN,
+      "score": 43.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APARINDS.NS",
+      "close": NaN,
+      "score": 43.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "14.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DIVISLAB.NS",
+      "close": NaN,
+      "score": 43.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.4/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLENMARK.NS",
+      "close": NaN,
+      "score": 42.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "7.2/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AEGISVOPAK.NS",
+      "close": NaN,
+      "score": 42.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.4/15",
+        "volume": "0.0/15",
+        "price_action": "14.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANANDRATHI.NS",
+      "close": NaN,
+      "score": 42.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.5/15",
+        "volume": "6.2/15",
+        "price_action": "8.9/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWDULUX.NS",
+      "close": NaN,
+      "score": 41.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "8.8/15",
+        "price_action": "9.7/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CRAFTSMAN.NS",
+      "close": NaN,
+      "score": 41.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.2/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HOMEFIRST.NS",
+      "close": NaN,
+      "score": 41.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "6.7/15",
+        "volume": "14.5/15",
+        "price_action": "6.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHENNPETRO.NS",
+      "close": NaN,
+      "score": 41.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ATHERENERG.NS",
+      "close": NaN,
+      "score": 41.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.9/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KIRLOSENG.NS",
+      "close": NaN,
+      "score": 40.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "8.2/15",
+        "fundamentals": "4.5/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MAHABANK.NS",
+      "close": NaN,
+      "score": 40.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.7/15",
+        "volume": "0.0/15",
+        "price_action": "7.9/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CUB.NS",
+      "close": NaN,
+      "score": 40.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.5/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDHOTEL.NS",
+      "close": NaN,
+      "score": 40.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IPCALAB.NS",
+      "close": NaN,
+      "score": 40.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "1.6/15",
+        "price_action": "10.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACUTAAS.NS",
+      "close": NaN,
+      "score": 40.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.9/15",
+        "volume": "0.0/15",
+        "price_action": "12.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KOTAKBANK.NS",
+      "close": NaN,
+      "score": 40.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.4/15",
+        "volume": "7.3/15",
+        "price_action": "7.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CPPLUS.NS",
+      "close": NaN,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GABRIEL.NS",
+      "close": NaN,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MEDANTA.NS",
+      "close": NaN,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HONASA.NS",
+      "close": NaN,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JINDALSTEL.NS",
+      "close": NaN,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KIMS.NS",
+      "close": NaN,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CONCORDBIO.NS",
+      "close": NaN,
+      "score": 39.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "14.9/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AIIL.NS",
+      "close": NaN,
+      "score": 39.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.7/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CGPOWER.NS",
+      "close": NaN,
+      "score": 39.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.5/15",
+        "volume": "0.0/15",
+        "price_action": "12.5/15",
+        "fundamentals": "4.7/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "close": NaN,
+      "score": 39.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "9.6/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BELRISE.NS",
+      "close": NaN,
+      "score": 39.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GESHIP.NS",
+      "close": NaN,
+      "score": 39.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "14.2/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ICICIGI.NS",
+      "close": NaN,
+      "score": 38.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.5/15",
+        "price_action": "7.0/15",
+        "fundamentals": "8.5/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASAHIINDIA.NS",
+      "close": NaN,
+      "score": 38.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "10.8/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DLF.NS",
+      "close": NaN,
+      "score": 38.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.2/15",
+        "fundamentals": "3.4/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ELECON.NS",
+      "close": NaN,
+      "score": 37.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "13.1/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BOSCHLTD.NS",
+      "close": NaN,
+      "score": 37.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "9.6/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CLEAN.NS",
+      "close": NaN,
+      "score": 36.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.6/15",
+        "volume": "0.0/15",
+        "price_action": "12.3/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KAJARIACER.NS",
+      "close": NaN,
+      "score": 36.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "2.4/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CENTRALBK.NS",
+      "close": NaN,
+      "score": 36.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "10.4/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANANTRAJ.NS",
+      "close": NaN,
+      "score": 36.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "2.2/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDUSTOWER.NS",
+      "close": NaN,
+      "score": 36.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.6/15",
+        "fundamentals": "6.5/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ELGIEQUIP.NS",
+      "close": NaN,
+      "score": 35.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.3/15",
+        "volume": "0.0/15",
+        "price_action": "9.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "THELEELA.NS",
+      "close": NaN,
+      "score": 35.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.5/15",
+        "volume": "0.0/15",
+        "price_action": "8.9/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KPRMILL.NS",
+      "close": NaN,
+      "score": 35.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.9/15",
+        "volume": "0.0/15",
+        "price_action": "11.2/15",
+        "fundamentals": "3.2/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IREDA.NS",
+      "close": NaN,
+      "score": 34.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.9/15",
+        "volume": "15.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "NYKAA.NS",
+      "close": NaN,
+      "score": 34.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CARTRADE.NS",
+      "close": NaN,
+      "score": 33.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.1/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLAND.NS",
+      "close": NaN,
+      "score": 33.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.1/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "3MINDIA.NS",
+      "close": NaN,
+      "score": 33.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AJANTPHARM.NS",
+      "close": NaN,
+      "score": 33.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COHANCE.NS",
+      "close": NaN,
+      "score": 33.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMAMILTD.NS",
+      "close": NaN,
+      "score": 33.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GAIL.NS",
+      "close": NaN,
+      "score": 33.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDZINC.NS",
+      "close": NaN,
+      "score": 33.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ITCHOTELS.NS",
+      "close": NaN,
+      "score": 33.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.9/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DRREDDY.NS",
+      "close": NaN,
+      "score": 33.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "8.8/15",
+        "fundamentals": "2.9/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DEVYANI.NS",
+      "close": NaN,
+      "score": 33.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.5/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLFOOD.NS",
+      "close": NaN,
+      "score": 33.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.5/15",
+        "volume": "0.3/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.6/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLAXO.NS",
+      "close": NaN,
+      "score": 32.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTFOODS.NS",
+      "close": NaN,
+      "score": 32.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.9/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANTHEM.NS",
+      "close": NaN,
+      "score": 31.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.5/15",
+        "volume": "0.0/15",
+        "price_action": "12.9/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JMFINANCIL.NS",
+      "close": NaN,
+      "score": 31.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "10.4/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APLAPOLLO.NS",
+      "close": NaN,
+      "score": 31.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.2/15",
+        "fundamentals": "2.8/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHALET.NS",
+      "close": NaN,
+      "score": 30.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "9.6/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FORTIS.NS",
+      "close": NaN,
+      "score": 30.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.4/15",
+        "volume": "13.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CRISIL.NS",
+      "close": NaN,
+      "score": 29.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.1/15",
+        "volume": "0.0/15",
+        "price_action": "5.3/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJHLDNG.NS",
+      "close": NaN,
+      "score": 29.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "13.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.2/15",
+        "fundamentals": "8.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BALRAMCHIN.NS",
+      "close": NaN,
+      "score": 29.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.6/15",
+        "volume": "0.7/15",
+        "price_action": "7.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KPIL.NS",
+      "close": NaN,
+      "score": 29.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "1.3/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRANULES.NS",
+      "close": NaN,
+      "score": 27.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.8/15",
+        "volume": "0.0/15",
+        "price_action": "7.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMMVEE.NS",
+      "close": NaN,
+      "score": 26.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.2/15",
+        "volume": "0.2/15",
+        "price_action": "7.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "unknown",
+      "stage_note": "",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CANHLIFE.NS",
+      "close": NaN,
+      "score": 26.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.1/15",
+        "volume": "0.0/15",
+        "price_action": "3.0/15",
+        "fundamentals": "7.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AFFLE.NS",
+      "close": NaN,
+      "score": 25.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "14.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABSLAMC.NS",
+      "close": NaN,
+      "score": 25.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.0/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HYUNDAI.NS",
+      "close": NaN,
+      "score": 25.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "4.5/15",
+        "volume": "15.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DEEPAKFERT.NS",
+      "close": NaN,
+      "score": 25.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.4/15",
+        "volume": "5.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODREJIND.NS",
+      "close": NaN,
+      "score": 25.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.3/15",
+        "volume": "15.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IDFCFIRSTB.NS",
+      "close": NaN,
+      "score": 25.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.6/15",
+        "volume": "0.0/15",
+        "price_action": "4.9/15",
+        "fundamentals": "6.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HEROMOTOCO.NS",
+      "close": NaN,
+      "score": 24.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "13.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABCAPITAL.NS",
+      "close": NaN,
+      "score": 24.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "12.9/15",
+        "volume": "0.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FSL.NS",
+      "close": NaN,
+      "score": 24.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "13.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJHFL.NS",
+      "close": NaN,
+      "score": 23.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.8/15",
+        "volume": "1.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "9.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "close": NaN,
+      "score": 22.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.5/15",
+        "volume": "0.0/15",
+        "price_action": "1.1/15",
+        "fundamentals": "8.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJ-AUTO.NS",
+      "close": NaN,
+      "score": 21.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "4.9/15",
+        "volume": "0.0/15",
+        "price_action": "6.6/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CIEINDIA.NS",
+      "close": NaN,
+      "score": 21.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "7.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AUBANK.NS",
+      "close": NaN,
+      "score": 21.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.3/15",
+        "volume": "12.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AXISBANK.NS",
+      "close": NaN,
+      "score": 21.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "4.7/15",
+        "price_action": "3.5/15",
+        "fundamentals": "9.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GVT&D.NS",
+      "close": NaN,
+      "score": 21.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.3/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASTERDM.NS",
+      "close": NaN,
+      "score": 21.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.7/15",
+        "volume": "1.5/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHEL.NS",
+      "close": NaN,
+      "score": 21.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.1/15",
+        "volume": "1.5/15",
+        "price_action": "1.6/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWCEMENT.NS",
+      "close": NaN,
+      "score": 21.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.0/15",
+        "volume": "7.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANKBARODA.NS",
+      "close": NaN,
+      "score": 21.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FIVESTAR.NS",
+      "close": NaN,
+      "score": 21.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.6/15",
+        "volume": "4.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJFINSV.NS",
+      "close": NaN,
+      "score": 21.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "11.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANGELONE.NS",
+      "close": NaN,
+      "score": 20.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.8/15",
+        "volume": "0.0/15",
+        "price_action": "2.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BRIGADE.NS",
+      "close": NaN,
+      "score": 20.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.2/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHARATFORG.NS",
+      "close": NaN,
+      "score": 20.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IIFL.NS",
+      "close": NaN,
+      "score": 20.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JKCEMENT.NS",
+      "close": NaN,
+      "score": 20.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JAINREC.NS",
+      "close": NaN,
+      "score": 20.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IOC.NS",
+      "close": NaN,
+      "score": 19.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.4/15",
+        "volume": "0.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IFCI.NS",
+      "close": NaN,
+      "score": 19.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "6.5/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLUESTARCO.NS",
+      "close": NaN,
+      "score": 19.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HSCL.NS",
+      "close": NaN,
+      "score": 19.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDPETRO.NS",
+      "close": NaN,
+      "score": 19.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.6/15",
+        "volume": "2.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IGIL.NS",
+      "close": NaN,
+      "score": 19.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.2/15",
+        "volume": "0.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DMART.NS",
+      "close": NaN,
+      "score": 19.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLUEJET.NS",
+      "close": NaN,
+      "score": 19.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "14.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EIHOTEL.NS",
+      "close": NaN,
+      "score": 18.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CIPLA.NS",
+      "close": NaN,
+      "score": 18.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "2.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHOLAHLDNG.NS",
+      "close": NaN,
+      "score": 18.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "10.3/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GMRAIRPORT.NS",
+      "close": NaN,
+      "score": 18.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHOLAFIN.NS",
+      "close": NaN,
+      "score": 18.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "9.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EXIDEIND.NS",
+      "close": NaN,
+      "score": 18.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ICICIPRULI.NS",
+      "close": NaN,
+      "score": 18.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ALKEM.NS",
+      "close": NaN,
+      "score": 18.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CDSL.NS",
+      "close": NaN,
+      "score": 18.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.1/15",
+        "volume": "1.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COROMANDEL.NS",
+      "close": NaN,
+      "score": 18.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HCLTECH.NS",
+      "close": NaN,
+      "score": 18.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "6.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ATGL.NS",
+      "close": NaN,
+      "score": 18.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FIRSTCRY.NS",
+      "close": NaN,
+      "score": 18.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BIKAJI.NS",
+      "close": NaN,
+      "score": 17.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BPCL.NS",
+      "close": NaN,
+      "score": 17.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HAL.NS",
+      "close": NaN,
+      "score": 17.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "J&KBANK.NS",
+      "close": NaN,
+      "score": 17.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIGREEN.NS",
+      "close": NaN,
+      "score": 17.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COFORGE.NS",
+      "close": NaN,
+      "score": 17.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JKTYRE.NS",
+      "close": NaN,
+      "score": 17.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.2/15",
+        "volume": "7.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CEATLTD.NS",
+      "close": NaN,
+      "score": 17.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HFCL.NS",
+      "close": NaN,
+      "score": 17.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "6.7/15",
+        "volume": "0.0/15",
+        "price_action": "1.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DALBHARAT.NS",
+      "close": NaN,
+      "score": 17.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.9/15",
+        "volume": "3.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FACT.NS",
+      "close": NaN,
+      "score": 17.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COLPAL.NS",
+      "close": NaN,
+      "score": 16.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHOICEIN.NS",
+      "close": NaN,
+      "score": 16.7,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWSTEEL.NS",
+      "close": NaN,
+      "score": 16.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "9.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KALYANKJIL.NS",
+      "close": NaN,
+      "score": 16.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CCL.NS",
+      "close": NaN,
+      "score": 16.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "8.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DATAPATTNS.NS",
+      "close": NaN,
+      "score": 16.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FLUOROCHEM.NS",
+      "close": NaN,
+      "score": 16.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DABUR.NS",
+      "close": NaN,
+      "score": 16.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JINDALSAW.NS",
+      "close": NaN,
+      "score": 16.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.6/15",
+        "volume": "0.0/15",
+        "price_action": "1.5/15",
+        "fundamentals": "3.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRASIM.NS",
+      "close": NaN,
+      "score": 16.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIGO.NS",
+      "close": NaN,
+      "score": 16.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CEMPRO.NS",
+      "close": NaN,
+      "score": 15.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "14.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHARTIHEXA.NS",
+      "close": NaN,
+      "score": 15.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.9/15",
+        "volume": "0.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KARURVYSYA.NS",
+      "close": NaN,
+      "score": 15.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "6.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANKINDIA.NS",
+      "close": NaN,
+      "score": 15.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "9.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABBOTINDIA.NS",
+      "close": NaN,
+      "score": 15.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CUMMINSIND.NS",
+      "close": NaN,
+      "score": 15.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GICRE.NS",
+      "close": NaN,
+      "score": 15.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.2/15",
+        "volume": "0.0/15",
+        "price_action": "5.2/15",
+        "fundamentals": "3.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IDBI.NS",
+      "close": NaN,
+      "score": 15.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.1/15",
+        "volume": "1.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "7.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HEGAM.NS",
+      "close": NaN,
+      "score": 15.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "7.7/15",
+        "price_action": "1.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "POWERINDIA.NS",
+      "close": NaN,
+      "score": 15.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.5/15",
+        "volume": "4.7/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JPPOWER.NS",
+      "close": NaN,
+      "score": 14.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "close": NaN,
+      "score": 14.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KAYNES.NS",
+      "close": NaN,
+      "score": 14.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.6/15",
+        "volume": "2.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODREJCP.NS",
+      "close": NaN,
+      "score": 14.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRCTC.NS",
+      "close": NaN,
+      "score": 14.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABB.NS",
+      "close": NaN,
+      "score": 14.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "9.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DELHIVERY.NS",
+      "close": NaN,
+      "score": 14.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.1/15",
+        "volume": "5.3/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KEI.NS",
+      "close": NaN,
+      "score": 14.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CAMS.NS",
+      "close": NaN,
+      "score": 14.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "close": NaN,
+      "score": 14.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "2.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HUDCO.NS",
+      "close": NaN,
+      "score": 13.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AAVAS.NS",
+      "close": NaN,
+      "score": 13.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "close": NaN,
+      "score": 13.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CANBK.NS",
+      "close": NaN,
+      "score": 13.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ITC.NS",
+      "close": NaN,
+      "score": 13.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "15.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JIOFIN.NS",
+      "close": NaN,
+      "score": 13.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDFCAMC.NS",
+      "close": NaN,
+      "score": 13.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IOB.NS",
+      "close": NaN,
+      "score": 13.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "NAUKRI.NS",
+      "close": NaN,
+      "score": 12.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "5.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIENSOL.NS",
+      "close": NaN,
+      "score": 12.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HEXT.NS",
+      "close": NaN,
+      "score": 12.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CREDITACC.NS",
+      "close": NaN,
+      "score": 12.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTM.NS",
+      "close": NaN,
+      "score": 12.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LATENTVIEW.NS",
+      "close": NaN,
+      "score": 12.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ENDURANCE.NS",
+      "close": NaN,
+      "score": 12.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.6/15",
+        "volume": "3.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIAMART.NS",
+      "close": NaN,
+      "score": 12.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHAMBLFERT.NS",
+      "close": NaN,
+      "score": 11.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "13.0/15",
+        "volume": "0.5/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BSOFT.NS",
+      "close": NaN,
+      "score": 11.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AARTIIND.NS",
+      "close": NaN,
+      "score": 11.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABFRL.NS",
+      "close": NaN,
+      "score": 11.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.0/15",
+        "volume": "0.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRFC.NS",
+      "close": NaN,
+      "score": 11.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BERGEPAINT.NS",
+      "close": NaN,
+      "score": 11.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "close": NaN,
+      "score": 11.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIANB.NS",
+      "close": NaN,
+      "score": 11.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.3/15",
+        "price_action": "0.3/15",
+        "fundamentals": "8.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GALLANTT.NS",
+      "close": NaN,
+      "score": 10.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRAVITA.NS",
+      "close": NaN,
+      "score": 10.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "3.7/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDUNILVR.NS",
+      "close": NaN,
+      "score": 10.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLINGREA.NS",
+      "close": NaN,
+      "score": 10.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.8/15",
+        "volume": "2.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KFINTECH.NS",
+      "close": NaN,
+      "score": 10.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AWL.NS",
+      "close": NaN,
+      "score": 10.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AADHARHFC.NS",
+      "close": NaN,
+      "score": 10.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.4/15",
+        "volume": "3.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BSE.NS",
+      "close": NaN,
+      "score": 10.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.4/15",
+        "volume": "1.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODFRYPHLP.NS",
+      "close": NaN,
+      "score": 10.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDCOPPER.NS",
+      "close": NaN,
+      "score": 10.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INOXWIND.NS",
+      "close": NaN,
+      "score": 10.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "12.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GMDCLTD.NS",
+      "close": NaN,
+      "score": 10.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CANFINHOME.NS",
+      "close": NaN,
+      "score": 10.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "3.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INFY.NS",
+      "close": NaN,
+      "score": 9.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "1.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "6.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIENT.NS",
+      "close": NaN,
+      "score": 9.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IGL.NS",
+      "close": NaN,
+      "score": 9.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.0/15",
+        "volume": "0.0/15",
+        "price_action": "1.8/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "360ONE.NS",
+      "close": NaN,
+      "score": 9.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BEL.NS",
+      "close": NaN,
+      "score": 9.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DIXON.NS",
+      "close": NaN,
+      "score": 9.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AFCONS.NS",
+      "close": NaN,
+      "score": 9.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.6/15",
+        "volume": "0.0/15",
+        "price_action": "6.9/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DEEPAKNTR.NS",
+      "close": NaN,
+      "score": 9.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FEDERALBNK.NS",
+      "close": NaN,
+      "score": 9.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.2/15",
+        "volume": "2.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODIGIT.NS",
+      "close": NaN,
+      "score": 9.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BALKRISIND.NS",
+      "close": NaN,
+      "score": 9.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APTUS.NS",
+      "close": NaN,
+      "score": 8.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANURAS.NS",
+      "close": NaN,
+      "score": 8.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDBFS.NS",
+      "close": NaN,
+      "score": 8.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ATUL.NS",
+      "close": NaN,
+      "score": 8.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIPOWER.NS",
+      "close": NaN,
+      "score": 8.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GROWW.NS",
+      "close": NaN,
+      "score": 8.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BBTC.NS",
+      "close": NaN,
+      "score": 8.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DOMS.NS",
+      "close": NaN,
+      "score": 8.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JBMA.NS",
+      "close": NaN,
+      "score": 8.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KEC.NS",
+      "close": NaN,
+      "score": 8.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACC.NS",
+      "close": NaN,
+      "score": 8.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HONAUT.NS",
+      "close": NaN,
+      "score": 8.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTF.NS",
+      "close": NaN,
+      "score": 8.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "1.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GPIL.NS",
+      "close": NaN,
+      "score": 7.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRCON.NS",
+      "close": NaN,
+      "score": 7.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "3.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASTRAL.NS",
+      "close": NaN,
+      "score": 7.7,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GILLETTE.NS",
+      "close": NaN,
+      "score": 7.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.0/15",
+        "volume": "1.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AMBUJACEM.NS",
+      "close": NaN,
+      "score": 7.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.6/15",
+        "volume": "0.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABREL.NS",
+      "close": NaN,
+      "score": 7.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "close": NaN,
+      "score": 6.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ESCORTS.NS",
+      "close": NaN,
+      "score": 6.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRSE.NS",
+      "close": NaN,
+      "score": 6.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JWL.NS",
+      "close": NaN,
+      "score": 6.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LT.NS",
+      "close": NaN,
+      "score": 6.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INTELLECT.NS",
+      "close": NaN,
+      "score": 6.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLUEDART.NS",
+      "close": NaN,
+      "score": 6.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CESC.NS",
+      "close": NaN,
+      "score": 6.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "3.3/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ARE&M.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASIANPAINT.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLS.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BDL.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MAPMYINDIA.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EICHERMOT.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODREJPROP.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HAVELLS.NS",
+      "close": NaN,
+      "score": 6.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FORCEMOT.NS",
+      "close": NaN,
+      "score": 6.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AIAENG.NS",
+      "close": NaN,
+      "score": 6.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AMBER.NS",
+      "close": NaN,
+      "score": 5.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASHOKLEY.NS",
+      "close": NaN,
+      "score": 5.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ERIS.NS",
+      "close": NaN,
+      "score": 5.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APOLLOTYRE.NS",
+      "close": NaN,
+      "score": 5.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CROMPTON.NS",
+      "close": NaN,
+      "score": 4.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIACEM.NS",
+      "close": NaN,
+      "score": 4.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "3.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABLBL.NS",
+      "close": NaN,
+      "score": 4.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IEX.NS",
+      "close": NaN,
+      "score": 4.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DCMSHRIRAM.NS",
+      "close": NaN,
+      "score": 3.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COCHINSHIP.NS",
+      "close": NaN,
+      "score": 3.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KPITTECH.NS",
+      "close": NaN,
+      "score": 3.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BRITANNIA.NS",
+      "close": NaN,
+      "score": 3.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRB.NS",
+      "close": NaN,
+      "score": 2.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "2.1/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWENERGY.NS",
+      "close": NaN,
+      "score": 2.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BATAINDIA.NS",
+      "close": NaN,
+      "score": 1.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EIDPARRY.NS",
+      "close": NaN,
+      "score": 1.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTTS.NS",
+      "close": NaN,
+      "score": 1.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDUSINDBK.NS",
+      "close": NaN,
+      "score": 0.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CONCOR.NS",
+      "close": NaN,
+      "score": 0.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAYERCROP.NS",
+      "close": NaN,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ITI.NS",
+      "close": NaN,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "stage": "4_declining",
+      "stage_note": "Below a falling 30-week average \u2014 avoid",
+      "suggested_stop": NaN,
+      "suggested_target": NaN,
+      "risk_reward": 2.0
+    }
+  ],
+  "early_stage_candidates": []
+}
