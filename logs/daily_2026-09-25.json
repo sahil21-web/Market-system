@@ -1,0 +1,6664 @@
+{
+  "india_regime": {
+    "components": {
+      "nifty_above_50dma": false,
+      "nifty_above_200dma": false,
+      "india_vix": 12.16,
+      "breadth_pct_above_50dma": 27.8
+    },
+    "score": 28.6,
+    "label": "DEFENSIVE \u2014 new positions only on the strongest setups"
+  },
+  "global_regime": {
+    "components": {
+      "sp500_above_50dma": true,
+      "nasdaq_above_50dma": true,
+      "us_vix": 15.43,
+      "crude_1m_change_pct": 14.33,
+      "dxy_1m_change_pct": 1.86
+    },
+    "score": 64.7,
+    "label": "GLOBAL NEUTRAL"
+  },
+  "combined_score": 35.8,
+  "confirmed_bar_used": 85,
+  "sectors": [
+    {
+      "sector": "Pharma",
+      "1m_return_pct": 1.41,
+      "3m_return_pct": 7.04,
+      "relative_strength_vs_nifty_1m": 5.82,
+      "score": 4.79
+    },
+    {
+      "sector": "IT",
+      "1m_return_pct": -7.12,
+      "3m_return_pct": 4.15,
+      "relative_strength_vs_nifty_1m": -2.71,
+      "score": -0.36
+    },
+    {
+      "sector": "Bank",
+      "1m_return_pct": -3.81,
+      "3m_return_pct": -3.72,
+      "relative_strength_vs_nifty_1m": 0.6,
+      "score": -3.76
+    }
+  ],
+  "holdings": [],
+  "confirmed_candidates": [
+    {
+      "ticker": "CASTROLIND.NS",
+      "close": 201.67,
+      "score": 94.3,
+      "label": "Exceptional",
+      "stars": "\u2605\u2605\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "10.4/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 194.98,
+      "suggested_target": 215.05,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDGN.NS",
+      "close": 608.95,
+      "score": 90.6,
+      "label": "Exceptional",
+      "stars": "\u2605\u2605\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.5/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 577.01,
+      "suggested_target": 672.83,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABDL.NS",
+      "close": 715.05,
+      "score": 85.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.3/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 661.89,
+      "suggested_target": 821.37,
+      "risk_reward": 2.0
+    }
+  ],
+  "early_candidates": [
+    {
+      "ticker": "ENGINERSIN.NS",
+      "close": 315.65,
+      "score": 81.1,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.9/15",
+        "volume": "13.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 292.33,
+      "suggested_target": 362.29,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HBLENGINE.NS",
+      "close": 806.0,
+      "score": 74.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "12.7/15",
+        "volume": "10.2/15",
+        "price_action": "15.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 750.37,
+      "suggested_target": 917.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACMESOLAR.NS",
+      "close": 442.9,
+      "score": 74.6,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.9/15",
+        "volume": "0.8/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 404.76,
+      "suggested_target": 519.18,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FINCABLES.NS",
+      "close": 1460.9,
+      "score": 73.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.7/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1321.71,
+      "suggested_target": 1739.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CAPLIPOINT.NS",
+      "close": 2835.1,
+      "score": 73.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.4/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 2621.0,
+      "suggested_target": 3263.3,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLPHARMA.NS",
+      "close": 1071.95,
+      "score": 72.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.3/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1001.01,
+      "suggested_target": 1213.83,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACE.NS",
+      "close": 1226.6,
+      "score": 72.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1150.73,
+      "suggested_target": 1378.34,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CARBORUNIV.NS",
+      "close": 1278.5,
+      "score": 72.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1177.19,
+      "suggested_target": 1481.12,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "close": 426.1,
+      "score": 72.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 411.36,
+      "suggested_target": 455.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWINFRA.NS",
+      "close": 362.05,
+      "score": 71.8,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.4/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 338.41,
+      "suggested_target": 409.33,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIPORTS.NS",
+      "close": 1788.0,
+      "score": 71.1,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.9/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1718.0,
+      "suggested_target": 1928.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LICHSGFIN.NS",
+      "close": 566.0,
+      "score": 71.1,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.1/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "4.8/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 535.16,
+      "suggested_target": 627.68,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LAURUSLABS.NS",
+      "close": 2007.0,
+      "score": 71.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.8/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1909.34,
+      "suggested_target": 2202.32,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JYOTICNC.NS",
+      "close": 1065.1,
+      "score": 70.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.7/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 980.82,
+      "suggested_target": 1233.66,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LALPATHLAB.NS",
+      "close": 1952.3,
+      "score": 70.8,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.2/15",
+        "volume": "4.4/15",
+        "price_action": "11.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1841.53,
+      "suggested_target": 2173.84,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LGEINDIA.NS",
+      "close": 1725.4,
+      "score": 70.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.3/15",
+        "volume": "7.7/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1648.3,
+      "suggested_target": 1879.6,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRAPHITE.NS",
+      "close": 820.7,
+      "score": 68.8,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 747.0,
+      "suggested_target": 968.1,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSL.NS",
+      "close": 748.25,
+      "score": 68.2,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "7.2/15",
+        "volume": "3.9/15",
+        "price_action": "15.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 699.87,
+      "suggested_target": 845.01,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AUROPHARMA.NS",
+      "close": 1712.0,
+      "score": 68.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.9/15",
+        "volume": "0.0/15",
+        "price_action": "12.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1642.14,
+      "suggested_target": 1851.72,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ETERNAL.NS",
+      "close": 335.0,
+      "score": 68.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "13.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 321.29,
+      "suggested_target": 362.42,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APOLLOHOSP.NS",
+      "close": 8889.0,
+      "score": 67.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.2/15",
+        "volume": "5.6/15",
+        "price_action": "7.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 8602.0,
+      "suggested_target": 9463.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IKS.NS",
+      "close": 1815.8,
+      "score": 67.5,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.7/15",
+        "volume": "0.0/15",
+        "price_action": "12.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1695.74,
+      "suggested_target": 2055.92,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MAHABANK.NS",
+      "close": 84.88,
+      "score": 67.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.9/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 80.44,
+      "suggested_target": 93.76,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMCURE.NS",
+      "close": 1950.6,
+      "score": 66.5,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.8/15",
+        "volume": "0.0/15",
+        "price_action": "11.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1834.27,
+      "suggested_target": 2183.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANDHANBNK.NS",
+      "close": 187.7,
+      "score": 66.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "13.1/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 176.44,
+      "suggested_target": 210.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AEGISLOG.NS",
+      "close": 1365.4,
+      "score": 65.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.0/15",
+        "volume": "0.0/15",
+        "price_action": "10.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1233.31,
+      "suggested_target": 1629.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BEML.NS",
+      "close": 2036.5,
+      "score": 65.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "7.3/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1887.71,
+      "suggested_target": 2334.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CYIENT.NS",
+      "close": 1094.7,
+      "score": 64.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.8/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1025.93,
+      "suggested_target": 1232.24,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DIVISLAB.NS",
+      "close": 9619.5,
+      "score": 64.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.5/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 9246.0,
+      "suggested_target": 10366.5,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRANULES.NS",
+      "close": 868.65,
+      "score": 64.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.9/15",
+        "volume": "0.0/15",
+        "price_action": "14.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 813.89,
+      "suggested_target": 978.17,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APARINDS.NS",
+      "close": 17776.0,
+      "score": 63.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "14.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 16160.31,
+      "suggested_target": 21007.38,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWDULUX.NS",
+      "close": 3199.6,
+      "score": 62.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.6/15",
+        "volume": "8.8/15",
+        "price_action": "9.7/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 3040.91,
+      "suggested_target": 3516.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GESHIP.NS",
+      "close": 1497.2,
+      "score": 61.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.4/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1434.47,
+      "suggested_target": 1622.66,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BELRISE.NS",
+      "close": 247.92,
+      "score": 61.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.7/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 236.47,
+      "suggested_target": 270.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MEDANTA.NS",
+      "close": 1495.4,
+      "score": 60.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.5/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1406.71,
+      "suggested_target": 1672.78,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IPCALAB.NS",
+      "close": 1970.8,
+      "score": 60.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.1/15",
+        "volume": "1.6/15",
+        "price_action": "10.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1872.06,
+      "suggested_target": 2168.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CPPLUS.NS",
+      "close": 3687.5,
+      "score": 60.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.3/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 3346.51,
+      "suggested_target": 4369.48,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JINDALSTEL.NS",
+      "close": 1164.8,
+      "score": 60.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1111.01,
+      "suggested_target": 1272.38,
+      "risk_reward": 2.0
+    }
+  ],
+  "all_scanned": [
+    {
+      "ticker": "CASTROLIND.NS",
+      "close": 201.67,
+      "score": 94.3,
+      "label": "Exceptional",
+      "stars": "\u2605\u2605\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "10.4/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 194.98,
+      "suggested_target": 215.05,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDGN.NS",
+      "close": 608.95,
+      "score": 90.6,
+      "label": "Exceptional",
+      "stars": "\u2605\u2605\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.5/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 577.01,
+      "suggested_target": 672.83,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABDL.NS",
+      "close": 715.05,
+      "score": 85.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.3/15",
+        "volume": "15.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 661.89,
+      "suggested_target": 821.37,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ENGINERSIN.NS",
+      "close": 315.65,
+      "score": 81.1,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.9/15",
+        "volume": "13.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 292.33,
+      "suggested_target": 362.29,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HBLENGINE.NS",
+      "close": 806.0,
+      "score": 74.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "12.7/15",
+        "volume": "10.2/15",
+        "price_action": "15.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 750.37,
+      "suggested_target": 917.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACMESOLAR.NS",
+      "close": 442.9,
+      "score": 74.6,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.9/15",
+        "volume": "0.8/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 404.76,
+      "suggested_target": 519.18,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FINCABLES.NS",
+      "close": 1460.9,
+      "score": 73.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.7/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1321.71,
+      "suggested_target": 1739.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CAPLIPOINT.NS",
+      "close": 2835.1,
+      "score": 73.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.4/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 2621.0,
+      "suggested_target": 3263.3,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLPHARMA.NS",
+      "close": 1071.95,
+      "score": 72.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "13.3/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1001.01,
+      "suggested_target": 1213.83,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACE.NS",
+      "close": 1226.6,
+      "score": 72.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1150.73,
+      "suggested_target": 1378.34,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CARBORUNIV.NS",
+      "close": 1278.5,
+      "score": 72.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1177.19,
+      "suggested_target": 1481.12,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "close": 426.1,
+      "score": 72.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 411.36,
+      "suggested_target": 455.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWINFRA.NS",
+      "close": 362.05,
+      "score": 71.8,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.4/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 338.41,
+      "suggested_target": 409.33,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIPORTS.NS",
+      "close": 1788.0,
+      "score": 71.1,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.9/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1718.0,
+      "suggested_target": 1928.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LICHSGFIN.NS",
+      "close": 566.0,
+      "score": 71.1,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.1/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "4.8/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 535.16,
+      "suggested_target": 627.68,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LAURUSLABS.NS",
+      "close": 2007.0,
+      "score": 71.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.8/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1909.34,
+      "suggested_target": 2202.32,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JYOTICNC.NS",
+      "close": 1065.1,
+      "score": 70.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.7/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 980.82,
+      "suggested_target": 1233.66,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LALPATHLAB.NS",
+      "close": 1952.3,
+      "score": 70.8,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.2/15",
+        "volume": "4.4/15",
+        "price_action": "11.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1841.53,
+      "suggested_target": 2173.84,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LGEINDIA.NS",
+      "close": 1725.4,
+      "score": 70.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.3/15",
+        "volume": "7.7/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1648.3,
+      "suggested_target": 1879.6,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRAPHITE.NS",
+      "close": 820.7,
+      "score": 68.8,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 747.0,
+      "suggested_target": 968.1,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSL.NS",
+      "close": 748.25,
+      "score": 68.2,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "7.2/15",
+        "volume": "3.9/15",
+        "price_action": "15.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 699.87,
+      "suggested_target": 845.01,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AUROPHARMA.NS",
+      "close": 1712.0,
+      "score": 68.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.9/15",
+        "volume": "0.0/15",
+        "price_action": "12.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1642.14,
+      "suggested_target": 1851.72,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ETERNAL.NS",
+      "close": 335.0,
+      "score": 68.0,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "13.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 321.29,
+      "suggested_target": 362.42,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APOLLOHOSP.NS",
+      "close": 8889.0,
+      "score": 67.9,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.2/15",
+        "volume": "5.6/15",
+        "price_action": "7.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 8602.0,
+      "suggested_target": 9463.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IKS.NS",
+      "close": 1815.8,
+      "score": 67.5,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.7/15",
+        "volume": "0.0/15",
+        "price_action": "12.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1695.74,
+      "suggested_target": 2055.92,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MAHABANK.NS",
+      "close": 84.88,
+      "score": 67.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.9/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 80.44,
+      "suggested_target": 93.76,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMCURE.NS",
+      "close": 1950.6,
+      "score": 66.5,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.8/15",
+        "volume": "0.0/15",
+        "price_action": "11.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1834.27,
+      "suggested_target": 2183.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANDHANBNK.NS",
+      "close": 187.7,
+      "score": 66.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "13.1/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 176.44,
+      "suggested_target": 210.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AEGISLOG.NS",
+      "close": 1365.4,
+      "score": 65.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.0/15",
+        "volume": "0.0/15",
+        "price_action": "10.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1233.31,
+      "suggested_target": 1629.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BEML.NS",
+      "close": 2036.5,
+      "score": 65.4,
+      "label": "Watchlist",
+      "stars": "\u2605\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "7.3/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1887.71,
+      "suggested_target": 2334.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CYIENT.NS",
+      "close": 1094.7,
+      "score": 64.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.8/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1025.93,
+      "suggested_target": 1232.24,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DIVISLAB.NS",
+      "close": 9619.5,
+      "score": 64.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.5/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 9246.0,
+      "suggested_target": 10366.5,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRANULES.NS",
+      "close": 868.65,
+      "score": 64.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.9/15",
+        "volume": "0.0/15",
+        "price_action": "14.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 813.89,
+      "suggested_target": 978.17,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APARINDS.NS",
+      "close": 17776.0,
+      "score": 63.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "14.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 16160.31,
+      "suggested_target": 21007.38,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWDULUX.NS",
+      "close": 3199.6,
+      "score": 62.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.6/15",
+        "volume": "8.8/15",
+        "price_action": "9.7/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 3040.91,
+      "suggested_target": 3516.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GESHIP.NS",
+      "close": 1497.2,
+      "score": 61.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.4/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1434.47,
+      "suggested_target": 1622.66,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BELRISE.NS",
+      "close": 247.92,
+      "score": 61.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "12.7/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 236.47,
+      "suggested_target": 270.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MEDANTA.NS",
+      "close": 1495.4,
+      "score": 60.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.5/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1406.71,
+      "suggested_target": 1672.78,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IPCALAB.NS",
+      "close": 1970.8,
+      "score": 60.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.1/15",
+        "volume": "1.6/15",
+        "price_action": "10.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1872.06,
+      "suggested_target": 2168.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CPPLUS.NS",
+      "close": 3687.5,
+      "score": 60.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.3/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 3346.51,
+      "suggested_target": 4369.48,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JINDALSTEL.NS",
+      "close": 1164.8,
+      "score": 60.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1111.01,
+      "suggested_target": 1272.38,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASAHIINDIA.NS",
+      "close": 959.95,
+      "score": 58.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.2/15",
+        "volume": "0.0/15",
+        "price_action": "10.8/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 912.66,
+      "suggested_target": 1054.53,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DLF.NS",
+      "close": 683.0,
+      "score": 58.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.2/15",
+        "volume": "0.0/15",
+        "price_action": "7.2/15",
+        "fundamentals": "3.4/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 652.96,
+      "suggested_target": 743.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AEGISVOPAK.NS",
+      "close": 287.5,
+      "score": 57.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "6.8/15",
+        "volume": "0.0/15",
+        "price_action": "14.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 260.2,
+      "suggested_target": 342.1,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BOSCHLTD.NS",
+      "close": 48250.0,
+      "score": 57.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "9.6/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 46201.43,
+      "suggested_target": 52347.14,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CUB.NS",
+      "close": 225.57,
+      "score": 57.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 211.07,
+      "suggested_target": 254.57,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KAJARIACER.NS",
+      "close": 1218.1,
+      "score": 57.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.2/15",
+        "volume": "2.4/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1165.15,
+      "suggested_target": 1324.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CGCL.NS",
+      "close": 253.7,
+      "score": 56.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.5/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 236.02,
+      "suggested_target": 289.06,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "THELEELA.NS",
+      "close": 546.15,
+      "score": 56.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "8.9/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 510.35,
+      "suggested_target": 617.75,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CRAFTSMAN.NS",
+      "close": 10735.0,
+      "score": 55.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.4/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 9838.43,
+      "suggested_target": 12528.14,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ATHERENERG.NS",
+      "close": 1497.0,
+      "score": 54.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.9/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1389.17,
+      "suggested_target": 1712.66,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDHOTEL.NS",
+      "close": 726.8,
+      "score": 54.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "11.2/15",
+        "volume": "0.0/15",
+        "price_action": "7.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 701.91,
+      "suggested_target": 776.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLENMARK.NS",
+      "close": 2380.0,
+      "score": 54.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.3/15",
+        "volume": "7.2/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 2274.1,
+      "suggested_target": 2591.8,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLAND.NS",
+      "close": 2917.2,
+      "score": 54.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.3/15",
+        "volume": "0.0/15",
+        "price_action": "7.1/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 2764.71,
+      "suggested_target": 3222.18,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CARTRADE.NS",
+      "close": 3002.6,
+      "score": 53.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.0/15",
+        "volume": "0.1/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 2766.09,
+      "suggested_target": 3475.62,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACUTAAS.NS",
+      "close": 3272.5,
+      "score": 53.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.7/15",
+        "volume": "0.0/15",
+        "price_action": "12.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 3007.24,
+      "suggested_target": 3803.02,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AJANTPHARM.NS",
+      "close": 3547.8,
+      "score": 53.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 3406.83,
+      "suggested_target": 3829.74,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AIIL.NS",
+      "close": 559.6,
+      "score": 53.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "11.2/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.7/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 521.91,
+      "suggested_target": 634.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CGPOWER.NS",
+      "close": 886.0,
+      "score": 53.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.5/15",
+        "volume": "0.0/15",
+        "price_action": "12.5/15",
+        "fundamentals": "4.7/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 838.92,
+      "suggested_target": 980.16,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BALRAMCHIN.NS",
+      "close": 685.8,
+      "score": 52.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "7.1/15",
+        "volume": "0.7/15",
+        "price_action": "7.0/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 641.04,
+      "suggested_target": 775.32,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APLAPOLLO.NS",
+      "close": 2214.7,
+      "score": 51.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.3/15",
+        "volume": "0.0/15",
+        "price_action": "7.2/15",
+        "fundamentals": "2.8/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 2113.97,
+      "suggested_target": 2416.16,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANANTRAJ.NS",
+      "close": 617.4,
+      "score": 50.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "2.2/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 584.66,
+      "suggested_target": 682.88,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHALET.NS",
+      "close": 881.35,
+      "score": 50.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "9.6/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 832.29,
+      "suggested_target": 979.47,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABBOTINDIA.NS",
+      "close": 26955.0,
+      "score": 49.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "11.3/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "1.4/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 25833.57,
+      "suggested_target": 29197.86,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHENNPETRO.NS",
+      "close": 1376.4,
+      "score": 49.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "4.6/15",
+        "volume": "0.0/15",
+        "price_action": "15.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1231.47,
+      "suggested_target": 1666.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "NYKAA.NS",
+      "close": 333.7,
+      "score": 48.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.7/15",
+        "volume": "0.0/15",
+        "price_action": "7.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 317.77,
+      "suggested_target": 365.56,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COHANCE.NS",
+      "close": 459.25,
+      "score": 47.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "11.2/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 426.06,
+      "suggested_target": 525.63,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDZINC.NS",
+      "close": 588.95,
+      "score": 47.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 564.16,
+      "suggested_target": 638.53,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLFOOD.NS",
+      "close": 484.55,
+      "score": 47.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "6.0/15",
+        "volume": "0.3/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.6/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 461.19,
+      "suggested_target": 531.27,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ELECON.NS",
+      "close": 458.25,
+      "score": 47.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "12.7/15",
+        "volume": "0.0/15",
+        "price_action": "13.1/15",
+        "fundamentals": "2.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 430.14,
+      "suggested_target": 514.47,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GABRIEL.NS",
+      "close": 1386.7,
+      "score": 46.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1271.0,
+      "suggested_target": 1618.1,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IIFL.NS",
+      "close": 616.95,
+      "score": 46.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 575.26,
+      "suggested_target": 700.33,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HEROMOTOCO.NS",
+      "close": 5360.0,
+      "score": 46.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "25/25",
+        "momentum": "10.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 5185.57,
+      "suggested_target": 5708.86,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CONCORDBIO.NS",
+      "close": 1453.6,
+      "score": 46.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.8/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1346.9,
+      "suggested_target": 1667.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GLAXO.NS",
+      "close": 2815.7,
+      "score": 45.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.4/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 2675.53,
+      "suggested_target": 3096.04,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTFOODS.NS",
+      "close": 422.35,
+      "score": 45.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.4/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 398.91,
+      "suggested_target": 469.23,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JINDALSAW.NS",
+      "close": 285.5,
+      "score": 44.7,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.3/15",
+        "volume": "0.0/15",
+        "price_action": "8.5/15",
+        "fundamentals": "3.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 262.76,
+      "suggested_target": 330.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CRISIL.NS",
+      "close": 4520.0,
+      "score": 43.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.7/15",
+        "volume": "0.0/15",
+        "price_action": "5.3/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4280.61,
+      "suggested_target": 4998.78,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CLEAN.NS",
+      "close": 807.25,
+      "score": 43.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "3.6/15",
+        "volume": "0.0/15",
+        "price_action": "12.3/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 761.41,
+      "suggested_target": 898.93,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KPIL.NS",
+      "close": 1391.2,
+      "score": 42.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.3/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "1.3/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1313.09,
+      "suggested_target": 1547.42,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "close": 735.6,
+      "score": 41.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.7/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "9.6/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 711.13,
+      "suggested_target": 784.54,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMMVEE.NS",
+      "close": 321.9,
+      "score": 41.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.3/15",
+        "volume": "0.2/15",
+        "price_action": "7.7/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 295.72,
+      "suggested_target": 374.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DRREDDY.NS",
+      "close": 1201.0,
+      "score": 41.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "8.8/15",
+        "fundamentals": "2.9/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1157.9,
+      "suggested_target": 1287.2,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "3MINDIA.NS",
+      "close": 33925.0,
+      "score": 40.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "11.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 32010.0,
+      "suggested_target": 37755.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HOMEFIRST.NS",
+      "close": 1123.1,
+      "score": 40.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "0.6/15",
+        "volume": "14.5/15",
+        "price_action": "6.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1041.13,
+      "suggested_target": 1287.04,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHARATFORG.NS",
+      "close": 2008.0,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1913.77,
+      "suggested_target": 2196.46,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IREDA.NS",
+      "close": 113.22,
+      "score": 40.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.0/15",
+        "volume": "15.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 108.67,
+      "suggested_target": 122.32,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KIMS.NS",
+      "close": 780.15,
+      "score": 39.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "10.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 741.3,
+      "suggested_target": 857.85,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KOTAKBANK.NS",
+      "close": 404.0,
+      "score": 39.7,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.0/15",
+        "volume": "7.3/15",
+        "price_action": "0.5/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 391.46,
+      "suggested_target": 429.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IDFCFIRSTB.NS",
+      "close": 83.8,
+      "score": 39.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.7/15",
+        "volume": "0.0/15",
+        "price_action": "4.9/15",
+        "fundamentals": "6.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 80.85,
+      "suggested_target": 89.7,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JMFINANCIL.NS",
+      "close": 127.68,
+      "score": 39.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "10.4/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 122.17,
+      "suggested_target": 138.7,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CANHLIFE.NS",
+      "close": 150.7,
+      "score": 38.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.3/15",
+        "volume": "0.0/15",
+        "price_action": "3.0/15",
+        "fundamentals": "7.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 139.32,
+      "suggested_target": 173.46,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DEVYANI.NS",
+      "close": 135.02,
+      "score": 38.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "3.8/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 127.37,
+      "suggested_target": 150.32,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CENTRALBK.NS",
+      "close": 31.18,
+      "score": 38.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.3/15",
+        "volume": "0.0/15",
+        "price_action": "10.4/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 30.13,
+      "suggested_target": 33.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANANDRATHI.NS",
+      "close": 2126.8,
+      "score": 38.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "1.3/15",
+        "volume": "6.2/15",
+        "price_action": "1.9/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2024.01,
+      "suggested_target": 2332.38,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HYUNDAI.NS",
+      "close": 2115.0,
+      "score": 37.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "4.0/15",
+        "volume": "15.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 2013.41,
+      "suggested_target": 2318.18,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJ-AUTO.NS",
+      "close": 11281.0,
+      "score": 37.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "2.1/15",
+        "volume": "0.0/15",
+        "price_action": "6.6/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 10966.71,
+      "suggested_target": 11909.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHEL.NS",
+      "close": 418.95,
+      "score": 36.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.0/15",
+        "volume": "1.5/15",
+        "price_action": "1.6/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 396.07,
+      "suggested_target": 464.71,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLUESTARCO.NS",
+      "close": 1565.0,
+      "score": 35.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.9/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "4.4/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 1466.77,
+      "suggested_target": 1761.46,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EMAMILTD.NS",
+      "close": 389.25,
+      "score": 35.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.1/15",
+        "volume": "0.0/15",
+        "price_action": "7.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [],
+      "suggested_stop": 366.21,
+      "suggested_target": 435.33,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ELGIEQUIP.NS",
+      "close": 603.0,
+      "score": 34.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.4/15",
+        "volume": "0.0/15",
+        "price_action": "2.3/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 567.39,
+      "suggested_target": 674.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KPRMILL.NS",
+      "close": 1106.4,
+      "score": 34.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.3/15",
+        "volume": "0.0/15",
+        "price_action": "4.2/15",
+        "fundamentals": "3.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1038.86,
+      "suggested_target": 1241.48,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KIRLOSENG.NS",
+      "close": 2137.2,
+      "score": 34.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "10.8/15",
+        "volume": "0.0/15",
+        "price_action": "1.2/15",
+        "fundamentals": "4.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1947.66,
+      "suggested_target": 2516.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HSCL.NS",
+      "close": 678.75,
+      "score": 33.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "11.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 648.36,
+      "suggested_target": 739.53,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GAIL.NS",
+      "close": 172.7,
+      "score": 33.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 168.11,
+      "suggested_target": 181.88,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HAL.NS",
+      "close": 4800.0,
+      "score": 32.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4601.41,
+      "suggested_target": 5197.18,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AFFLE.NS",
+      "close": 1578.0,
+      "score": 32.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "9.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1497.37,
+      "suggested_target": 1739.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HONASA.NS",
+      "close": 465.5,
+      "score": 32.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 435.41,
+      "suggested_target": 525.68,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABSLAMC.NS",
+      "close": 1014.5,
+      "score": 32.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "3.3/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 934.26,
+      "suggested_target": 1174.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AUBANK.NS",
+      "close": 1018.0,
+      "score": 31.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "2.5/15",
+        "volume": "12.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 974.77,
+      "suggested_target": 1104.46,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABCAPITAL.NS",
+      "close": 390.0,
+      "score": 31.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.9/15",
+        "volume": "0.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 372.75,
+      "suggested_target": 424.5,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRASIM.NS",
+      "close": 3191.0,
+      "score": 31.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 3096.56,
+      "suggested_target": 3379.88,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EXIDEIND.NS",
+      "close": 423.65,
+      "score": 31.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "9.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 401.39,
+      "suggested_target": 468.17,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KARURVYSYA.NS",
+      "close": 327.95,
+      "score": 31.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 311.65,
+      "suggested_target": 360.55,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COFORGE.NS",
+      "close": 1784.0,
+      "score": 31.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1677.89,
+      "suggested_target": 1996.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DATAPATTNS.NS",
+      "close": 4418.8,
+      "score": 30.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4047.09,
+      "suggested_target": 5162.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWSTEEL.NS",
+      "close": 1277.0,
+      "score": 30.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "5.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1235.36,
+      "suggested_target": 1360.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJHLDNG.NS",
+      "close": 10940.0,
+      "score": 30.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "4.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.2/15",
+        "fundamentals": "8.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 10521.3,
+      "suggested_target": 11777.4,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANTHEM.NS",
+      "close": 873.6,
+      "score": 30.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "2.3/15",
+        "volume": "0.0/15",
+        "price_action": "5.9/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 818.58,
+      "suggested_target": 983.64,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KALYANKJIL.NS",
+      "close": 573.0,
+      "score": 30.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "3.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 542.24,
+      "suggested_target": 634.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KAYNES.NS",
+      "close": 3650.0,
+      "score": 30.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "11.0/15",
+        "volume": "2.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 3406.03,
+      "suggested_target": 4137.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "NAUKRI.NS",
+      "close": 1254.8,
+      "score": 29.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1180.79,
+      "suggested_target": 1402.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JUBLINGREA.NS",
+      "close": 656.1,
+      "score": 29.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "9.7/15",
+        "volume": "2.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 617.34,
+      "suggested_target": 733.62,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FLUOROCHEM.NS",
+      "close": 4441.4,
+      "score": 29.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "20/25",
+        "momentum": "2.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4188.4,
+      "suggested_target": 4947.4,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FIVESTAR.NS",
+      "close": 520.95,
+      "score": 28.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "4.1/15",
+        "volume": "4.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 484.39,
+      "suggested_target": 594.07,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AXISBANK.NS",
+      "close": 1222.4,
+      "score": 27.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "3.9/15",
+        "volume": "4.7/15",
+        "price_action": "3.5/15",
+        "fundamentals": "9.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1177.47,
+      "suggested_target": 1312.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IGIL.NS",
+      "close": 330.55,
+      "score": 27.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "11.0/15",
+        "volume": "0.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 313.15,
+      "suggested_target": 365.35,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASTERDM.NS",
+      "close": 759.4,
+      "score": 27.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "9.3/15",
+        "volume": "1.5/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 723.31,
+      "suggested_target": 831.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GMRAIRPORT.NS",
+      "close": 97.95,
+      "score": 26.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "10.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 93.24,
+      "suggested_target": 107.37,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BRIGADE.NS",
+      "close": 597.9,
+      "score": 26.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "2.3/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 557.94,
+      "suggested_target": 677.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CIPLA.NS",
+      "close": 1399.7,
+      "score": 26.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "11.0/15",
+        "volume": "2.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1352.14,
+      "suggested_target": 1494.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ICICIGI.NS",
+      "close": 1553.7,
+      "score": 26.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.0/15",
+        "volume": "0.5/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1480.14,
+      "suggested_target": 1700.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IDBI.NS",
+      "close": 84.4,
+      "score": 26.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "5.8/15",
+        "volume": "1.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "7.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 78.13,
+      "suggested_target": 96.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLUEJET.NS",
+      "close": 570.65,
+      "score": 25.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "9.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 539.23,
+      "suggested_target": 633.49,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AARTIIND.NS",
+      "close": 489.25,
+      "score": 25.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "4.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 461.28,
+      "suggested_target": 545.19,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HFCL.NS",
+      "close": 211.27,
+      "score": 24.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "2.9/15",
+        "volume": "0.0/15",
+        "price_action": "1.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 193.12,
+      "suggested_target": 247.57,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIENT.NS",
+      "close": 2916.5,
+      "score": 24.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "15/25",
+        "momentum": "3.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2773.11,
+      "suggested_target": 3203.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CIEINDIA.NS",
+      "close": 390.8,
+      "score": 24.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "7.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 372.58,
+      "suggested_target": 427.24,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "POWERINDIA.NS",
+      "close": 31035.0,
+      "score": 24.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.5/15",
+        "volume": "4.7/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 29420.71,
+      "suggested_target": 34263.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CEMPRO.NS",
+      "close": 1257.2,
+      "score": 22.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "9.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1169.1,
+      "suggested_target": 1433.4,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GVT&D.NS",
+      "close": 4280.0,
+      "score": 22.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "4.2/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4011.23,
+      "suggested_target": 4817.54,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COROMANDEL.NS",
+      "close": 1963.9,
+      "score": 21.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1886.67,
+      "suggested_target": 2118.36,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODREJIND.NS",
+      "close": 1105.3,
+      "score": 21.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.2/15",
+        "volume": "15.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1045.47,
+      "suggested_target": 1224.96,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DMART.NS",
+      "close": 3834.2,
+      "score": 21.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 3711.81,
+      "suggested_target": 4078.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ITCHOTELS.NS",
+      "close": 161.9,
+      "score": 21.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 155.35,
+      "suggested_target": 175.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DEEPAKFERT.NS",
+      "close": 1363.8,
+      "score": 20.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.6/15",
+        "volume": "5.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1286.56,
+      "suggested_target": 1518.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIGREEN.NS",
+      "close": 1296.6,
+      "score": 20.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1233.47,
+      "suggested_target": 1422.86,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABB.NS",
+      "close": 7052.5,
+      "score": 20.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "1.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "9.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 6759.07,
+      "suggested_target": 7639.36,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FIRSTCRY.NS",
+      "close": 180.83,
+      "score": 20.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 165.69,
+      "suggested_target": 211.11,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IFCI.NS",
+      "close": 73.95,
+      "score": 20.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "2.0/15",
+        "volume": "0.0/15",
+        "price_action": "8.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 64.82,
+      "suggested_target": 92.21,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHOLAFIN.NS",
+      "close": 1662.7,
+      "score": 19.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "0.0/15",
+        "volume": "9.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1579.77,
+      "suggested_target": 1828.56,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJHFL.NS",
+      "close": 83.14,
+      "score": 19.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.2/15",
+        "volume": "1.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "9.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 79.95,
+      "suggested_target": 89.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CCL.NS",
+      "close": 1044.4,
+      "score": 18.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "0.5/15",
+        "volume": "8.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 992.63,
+      "suggested_target": 1147.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHOICEIN.NS",
+      "close": 751.05,
+      "score": 18.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 713.6,
+      "suggested_target": 825.95,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODIGIT.NS",
+      "close": 253.7,
+      "score": 18.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 237.18,
+      "suggested_target": 286.74,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "close": 531.0,
+      "score": 18.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.2/15",
+        "volume": "0.0/15",
+        "price_action": "1.1/15",
+        "fundamentals": "8.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 499.76,
+      "suggested_target": 593.48,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ALKEM.NS",
+      "close": 5274.0,
+      "score": 18.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 5052.86,
+      "suggested_target": 5716.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DIXON.NS",
+      "close": 13390.0,
+      "score": 18.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "3.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 12713.79,
+      "suggested_target": 14742.42,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "J&KBANK.NS",
+      "close": 146.1,
+      "score": 17.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "8.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 139.74,
+      "suggested_target": 158.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FORTIS.NS",
+      "close": 837.85,
+      "score": 17.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "13.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 802.48,
+      "suggested_target": 908.59,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANKBARODA.NS",
+      "close": 235.26,
+      "score": 17.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 228.95,
+      "suggested_target": 247.88,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HEGAM.NS",
+      "close": 244.35,
+      "score": 16.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.0/15",
+        "volume": "7.7/15",
+        "price_action": "1.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 224.91,
+      "suggested_target": 283.23,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWCEMENT.NS",
+      "close": 115.47,
+      "score": 16.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.0/15",
+        "volume": "7.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 111.29,
+      "suggested_target": 123.83,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FEDERALBNK.NS",
+      "close": 322.0,
+      "score": 16.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "10/25",
+        "momentum": "0.0/15",
+        "volume": "2.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 309.24,
+      "suggested_target": 347.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJAJFINSV.NS",
+      "close": 1771.0,
+      "score": 16.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "11.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1707.53,
+      "suggested_target": 1897.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GICRE.NS",
+      "close": 337.5,
+      "score": 16.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "3.6/15",
+        "volume": "0.0/15",
+        "price_action": "5.2/15",
+        "fundamentals": "3.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 322.96,
+      "suggested_target": 366.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "close": 1326.8,
+      "score": 15.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "0.0/15",
+        "volume": "2.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1289.96,
+      "suggested_target": 1400.48,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ITC.NS",
+      "close": 269.0,
+      "score": 15.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "11.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 260.88,
+      "suggested_target": 285.24,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HCLTECH.NS",
+      "close": 1258.0,
+      "score": 14.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "6.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1195.83,
+      "suggested_target": 1382.34,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CAMS.NS",
+      "close": 707.35,
+      "score": 14.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "7.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 673.74,
+      "suggested_target": 774.57,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDPETRO.NS",
+      "close": 351.0,
+      "score": 14.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.8/15",
+        "volume": "2.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 335.81,
+      "suggested_target": 381.38,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JAINREC.NS",
+      "close": 286.85,
+      "score": 14.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 266.62,
+      "suggested_target": 327.31,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IOC.NS",
+      "close": 135.7,
+      "score": 13.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.8/15",
+        "volume": "0.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 131.36,
+      "suggested_target": 144.38,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHOLAHLDNG.NS",
+      "close": 1400.6,
+      "score": 13.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "10.3/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1322.63,
+      "suggested_target": 1556.54,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BPCL.NS",
+      "close": 308.5,
+      "score": 13.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 295.49,
+      "suggested_target": 334.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "close": 382.15,
+      "score": 13.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "6.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 364.24,
+      "suggested_target": 417.97,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EIHOTEL.NS",
+      "close": 294.7,
+      "score": 13.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 277.2,
+      "suggested_target": 329.7,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ATGL.NS",
+      "close": 611.65,
+      "score": 12.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 572.69,
+      "suggested_target": 689.57,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CDSL.NS",
+      "close": 1318.0,
+      "score": 12.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "2.9/15",
+        "volume": "1.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1252.53,
+      "suggested_target": 1448.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIGO.NS",
+      "close": 4940.0,
+      "score": 12.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4751.93,
+      "suggested_target": 5316.14,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BIKAJI.NS",
+      "close": 573.95,
+      "score": 12.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 534.08,
+      "suggested_target": 653.69,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JKCEMENT.NS",
+      "close": 5000.0,
+      "score": 12.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4694.36,
+      "suggested_target": 5611.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIANB.NS",
+      "close": 832.0,
+      "score": 12.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "0.1/15",
+        "volume": "0.3/15",
+        "price_action": "0.3/15",
+        "fundamentals": "8.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 801.74,
+      "suggested_target": 892.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANURAS.NS",
+      "close": 1192.4,
+      "score": 12.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "4.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1122.66,
+      "suggested_target": 1331.88,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ENDURANCE.NS",
+      "close": 2645.9,
+      "score": 12.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "1.0/15",
+        "volume": "3.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2503.89,
+      "suggested_target": 2929.92,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIPOWER.NS",
+      "close": 202.75,
+      "score": 12.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "3.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 192.68,
+      "suggested_target": 222.89,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APTUS.NS",
+      "close": 244.6,
+      "score": 12.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 230.18,
+      "suggested_target": 273.44,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CEATLTD.NS",
+      "close": 3352.2,
+      "score": 12.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 3209.89,
+      "suggested_target": 3636.82,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COLPAL.NS",
+      "close": 1855.8,
+      "score": 12.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1783.77,
+      "suggested_target": 1999.86,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FACT.NS",
+      "close": 777.9,
+      "score": 12.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 736.1,
+      "suggested_target": 861.5,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FSL.NS",
+      "close": 259.45,
+      "score": 12.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 242.89,
+      "suggested_target": 292.57,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JKTYRE.NS",
+      "close": 345.85,
+      "score": 12.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.0/15",
+        "volume": "7.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 331.21,
+      "suggested_target": 375.13,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "close": 977.0,
+      "score": 11.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "3.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 940.94,
+      "suggested_target": 1049.12,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DABUR.NS",
+      "close": 385.6,
+      "score": 11.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "9.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 372.4,
+      "suggested_target": 412.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODREJCP.NS",
+      "close": 880.0,
+      "score": 11.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 851.86,
+      "suggested_target": 936.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BANKINDIA.NS",
+      "close": 137.94,
+      "score": 10.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "3.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "9.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 133.61,
+      "suggested_target": 146.6,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AAVAS.NS",
+      "close": 1267.7,
+      "score": 10.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1207.01,
+      "suggested_target": 1389.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DALBHARAT.NS",
+      "close": 1700.2,
+      "score": 10.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.7/15",
+        "volume": "3.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1602.33,
+      "suggested_target": 1895.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KEI.NS",
+      "close": 4673.5,
+      "score": 10.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4469.64,
+      "suggested_target": 5081.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "360ONE.NS",
+      "close": 1073.0,
+      "score": 10.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "2.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1019.8,
+      "suggested_target": 1179.4,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "close": 996.9,
+      "score": 10.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "2.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 958.56,
+      "suggested_target": 1073.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JPPOWER.NS",
+      "close": 15.87,
+      "score": 10.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 14.98,
+      "suggested_target": 17.65,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CUMMINSIND.NS",
+      "close": 4945.0,
+      "score": 9.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4706.93,
+      "suggested_target": 5421.14,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASIANPAINT.NS",
+      "close": 2444.0,
+      "score": 9.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2374.07,
+      "suggested_target": 2583.86,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDUSTOWER.NS",
+      "close": 374.65,
+      "score": 9.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.6/15",
+        "fundamentals": "6.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 359.04,
+      "suggested_target": 405.87,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "close": 1785.4,
+      "score": 9.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1736.29,
+      "suggested_target": 1883.62,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LT.NS",
+      "close": 3876.2,
+      "score": 9.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "3.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 3756.4,
+      "suggested_target": 4115.8,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INOXWIND.NS",
+      "close": 74.75,
+      "score": 8.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "11.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 70.46,
+      "suggested_target": 83.33,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IOB.NS",
+      "close": 31.98,
+      "score": 8.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 31.07,
+      "suggested_target": 33.8,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRCTC.NS",
+      "close": 458.7,
+      "score": 8.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 442.81,
+      "suggested_target": 490.48,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BERGEPAINT.NS",
+      "close": 458.35,
+      "score": 8.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 437.79,
+      "suggested_target": 499.47,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HUDCO.NS",
+      "close": 173.99,
+      "score": 8.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 166.1,
+      "suggested_target": 189.77,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ATUL.NS",
+      "close": 6070.5,
+      "score": 8.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "0.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 5839.14,
+      "suggested_target": 6533.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DELHIVERY.NS",
+      "close": 422.7,
+      "score": 8.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.4/15",
+        "volume": "5.3/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 403.32,
+      "suggested_target": 461.46,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JIOFIN.NS",
+      "close": 227.0,
+      "score": 8.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 220.62,
+      "suggested_target": 239.76,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ANGELONE.NS",
+      "close": 288.0,
+      "score": 8.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "3.0/15",
+        "volume": "0.0/15",
+        "price_action": "2.4/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 272.58,
+      "suggested_target": 318.84,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIAMART.NS",
+      "close": 1642.1,
+      "score": 7.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1552.64,
+      "suggested_target": 1821.02,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CANBK.NS",
+      "close": 124.99,
+      "score": 7.7,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "10.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 121.41,
+      "suggested_target": 132.15,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ADANIENSOL.NS",
+      "close": 1338.5,
+      "score": 7.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1267.3,
+      "suggested_target": 1480.9,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CREDITACC.NS",
+      "close": 1298.8,
+      "score": 7.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1229.21,
+      "suggested_target": 1437.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EICHERMOT.NS",
+      "close": 7360.0,
+      "score": 7.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 7172.86,
+      "suggested_target": 7734.28,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HAVELLS.NS",
+      "close": 1096.5,
+      "score": 7.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1058.14,
+      "suggested_target": 1173.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HEXT.NS",
+      "close": 496.7,
+      "score": 7.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 471.79,
+      "suggested_target": 546.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTM.NS",
+      "close": 4083.0,
+      "score": 7.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "10.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 3852.83,
+      "suggested_target": 4543.34,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABFRL.NS",
+      "close": 49.14,
+      "score": 7.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.8/15",
+        "volume": "0.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 46.9,
+      "suggested_target": 53.62,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDUNILVR.NS",
+      "close": 1942.9,
+      "score": 7.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1891.54,
+      "suggested_target": 2045.62,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ICICIPRULI.NS",
+      "close": 463.0,
+      "score": 7.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "8.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 434.91,
+      "suggested_target": 519.18,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CHAMBLFERT.NS",
+      "close": 417.95,
+      "score": 6.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.9/15",
+        "volume": "0.5/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 404.76,
+      "suggested_target": 444.33,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRFC.NS",
+      "close": 79.95,
+      "score": 6.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 77.29,
+      "suggested_target": 85.27,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AIAENG.NS",
+      "close": 3919.4,
+      "score": 6.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 3687.47,
+      "suggested_target": 4383.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GALLANTT.NS",
+      "close": 545.1,
+      "score": 5.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 508.7,
+      "suggested_target": 617.9,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRAVITA.NS",
+      "close": 1495.4,
+      "score": 5.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "3.7/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1415.6,
+      "suggested_target": 1655.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BSE.NS",
+      "close": 3191.5,
+      "score": 5.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.6/15",
+        "volume": "1.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 3010.23,
+      "suggested_target": 3554.04,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AWL.NS",
+      "close": 184.34,
+      "score": 5.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "3.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 177.04,
+      "suggested_target": 198.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BEL.NS",
+      "close": 393.55,
+      "score": 5.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "3.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 379.39,
+      "suggested_target": 421.87,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AADHARHFC.NS",
+      "close": 444.5,
+      "score": 5.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.1/15",
+        "volume": "3.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 419.54,
+      "suggested_target": 494.42,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BALKRISIND.NS",
+      "close": 2185.3,
+      "score": 5.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "3.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2085.16,
+      "suggested_target": 2385.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HINDCOPPER.NS",
+      "close": 494.65,
+      "score": 5.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "3.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 468.55,
+      "suggested_target": 546.85,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BRITANNIA.NS",
+      "close": 4937.5,
+      "score": 5.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 4796.36,
+      "suggested_target": 5219.78,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CANFINHOME.NS",
+      "close": 753.25,
+      "score": 5.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "3.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 720.11,
+      "suggested_target": 819.53,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODFRYPHLP.NS",
+      "close": 1970.4,
+      "score": 5.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "8.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1897.13,
+      "suggested_target": 2116.94,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INFY.NS",
+      "close": 1000.2,
+      "score": 4.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "1.9/15",
+        "price_action": "0.0/15",
+        "fundamentals": "6.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 962.7,
+      "suggested_target": 1075.2,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KFINTECH.NS",
+      "close": 888.8,
+      "score": 4.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 850.11,
+      "suggested_target": 966.18,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ESCORTS.NS",
+      "close": 2855.7,
+      "score": 4.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2743.7,
+      "suggested_target": 3079.7,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HONAUT.NS",
+      "close": 33865.0,
+      "score": 4.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 31946.43,
+      "suggested_target": 37702.14,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AFCONS.NS",
+      "close": 252.5,
+      "score": 4.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.4/15",
+        "volume": "0.0/15",
+        "price_action": "6.9/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 221.99,
+      "suggested_target": 313.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GMDCLTD.NS",
+      "close": 538.0,
+      "score": 4.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 511.79,
+      "suggested_target": 590.42,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GROWW.NS",
+      "close": 187.06,
+      "score": 4.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 177.53,
+      "suggested_target": 206.12,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IGL.NS",
+      "close": 144.95,
+      "score": 3.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.3/15",
+        "volume": "0.0/15",
+        "price_action": "1.8/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 140.35,
+      "suggested_target": 154.15,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASTRAL.NS",
+      "close": 1399.0,
+      "score": 3.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1342.89,
+      "suggested_target": 1511.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KEC.NS",
+      "close": 396.95,
+      "score": 3.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "7.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 372.68,
+      "suggested_target": 445.49,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "FORCEMOT.NS",
+      "close": 17388.0,
+      "score": 3.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.8/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 16636.83,
+      "suggested_target": 18890.34,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BBTC.NS",
+      "close": 1435.2,
+      "score": 3.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "4.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1352.53,
+      "suggested_target": 1600.54,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DEEPAKNTR.NS",
+      "close": 1587.1,
+      "score": 3.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1516.5,
+      "suggested_target": 1728.3,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTF.NS",
+      "close": 284.0,
+      "score": 3.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.3/15",
+        "volume": "1.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 269.21,
+      "suggested_target": 313.58,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ACC.NS",
+      "close": 1236.4,
+      "score": 3.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "6.5/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1196.11,
+      "suggested_target": 1316.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRCON.NS",
+      "close": 105.95,
+      "score": 2.9,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "3.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 100.6,
+      "suggested_target": 116.65,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GPIL.NS",
+      "close": 229.42,
+      "score": 2.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 216.77,
+      "suggested_target": 254.72,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ASHOKLEY.NS",
+      "close": 159.08,
+      "score": 2.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 152.05,
+      "suggested_target": 173.14,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BHARTIHEXA.NS",
+      "close": 1481.8,
+      "score": 2.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.3/15",
+        "volume": "0.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1416.67,
+      "suggested_target": 1612.06,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABREL.NS",
+      "close": 1230.9,
+      "score": 2.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.3/15",
+        "volume": "0.6/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1154.97,
+      "suggested_target": 1382.76,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AMBER.NS",
+      "close": 6960.0,
+      "score": 2.3,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.6/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 6665.5,
+      "suggested_target": 7549.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JBMA.NS",
+      "close": 586.6,
+      "score": 2.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 557.34,
+      "suggested_target": 645.12,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "AMBUJACEM.NS",
+      "close": 383.8,
+      "score": 2.0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "5.5/15",
+        "volume": "0.1/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 370.44,
+      "suggested_target": 410.52,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DOMS.NS",
+      "close": 2083.0,
+      "score": 1.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.4/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2001.37,
+      "suggested_target": 2246.26,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDFCAMC.NS",
+      "close": 2378.0,
+      "score": 1.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.9/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2304.51,
+      "suggested_target": 2524.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JWL.NS",
+      "close": 226.73,
+      "score": 1.8,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.4/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 215.85,
+      "suggested_target": 248.49,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDUSINDBK.NS",
+      "close": 912.2,
+      "score": 1.6,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "5/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 879.31,
+      "suggested_target": 977.98,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLS.NS",
+      "close": 224.26,
+      "score": 1.5,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.2/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 212.77,
+      "suggested_target": 247.24,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CESC.NS",
+      "close": 139.86,
+      "score": 1.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "3.3/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 133.69,
+      "suggested_target": 152.2,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "HDBFS.NS",
+      "close": 648.15,
+      "score": 1.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.1/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 621.54,
+      "suggested_target": 701.37,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ARE&M.NS",
+      "close": 791.95,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 761.91,
+      "suggested_target": 852.03,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BDL.NS",
+      "close": 1140.0,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1076.96,
+      "suggested_target": 1266.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BLUEDART.NS",
+      "close": 4746.5,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 4601.31,
+      "suggested_target": 5036.88,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "MAPMYINDIA.NS",
+      "close": 881.9,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 824.0,
+      "suggested_target": 997.7,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GRSE.NS",
+      "close": 2319.0,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 2196.63,
+      "suggested_target": 2563.74,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GODREJPROP.NS",
+      "close": 1700.1,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1605.53,
+      "suggested_target": 1889.24,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INTELLECT.NS",
+      "close": 633.05,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 595.68,
+      "suggested_target": 707.79,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LATENTVIEW.NS",
+      "close": 243.75,
+      "score": 1.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "5.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 231.66,
+      "suggested_target": 267.93,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "GILLETTE.NS",
+      "close": 7072.0,
+      "score": 1.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.1/15",
+        "volume": "1.2/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.6/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 6810.14,
+      "suggested_target": 7595.72,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "APOLLOTYRE.NS",
+      "close": 400.1,
+      "score": 0.4,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 379.79,
+      "suggested_target": 440.72,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ERIS.NS",
+      "close": 1258.9,
+      "score": 0.2,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "4.2/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 1193.54,
+      "suggested_target": 1389.62,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IEX.NS",
+      "close": 112.7,
+      "score": 0.1,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 108.71,
+      "suggested_target": 120.68,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ABLBL.NS",
+      "close": 78.72,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.7/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 75.54,
+      "suggested_target": 85.08,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BATAINDIA.NS",
+      "close": 629.8,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.3/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 605.13,
+      "suggested_target": 679.14,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BAYERCROP.NS",
+      "close": 3717.6,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 3597.59,
+      "suggested_target": 3957.62,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "BSOFT.NS",
+      "close": 274.05,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "2.5/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 261.73,
+      "suggested_target": 298.69,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "COCHINSHIP.NS",
+      "close": 1377.0,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "2.7/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.8/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 1287.98,
+      "suggested_target": 1555.04,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CONCOR.NS",
+      "close": 461.5,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 436.91,
+      "suggested_target": 510.68,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "CROMPTON.NS",
+      "close": 218.6,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 210.2,
+      "suggested_target": 235.4,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "DCMSHRIRAM.NS",
+      "close": 974.3,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 940.34,
+      "suggested_target": 1042.22,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "EIDPARRY.NS",
+      "close": 704.75,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.3/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "1.1/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 670.05,
+      "suggested_target": 774.15,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "IRB.NS",
+      "close": 17.68,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "2.1/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 16.69,
+      "suggested_target": 19.66,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "ITI.NS",
+      "close": 252.9,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 242.34,
+      "suggested_target": 274.02,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "INDIACEM.NS",
+      "close": 323.1,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "3.8/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 304.15,
+      "suggested_target": 361.0,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "JSWENERGY.NS",
+      "close": 506.55,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "1.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.4/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 486.65,
+      "suggested_target": 546.35,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "KPITTECH.NS",
+      "close": 519.4,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "3.0/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming"
+      ],
+      "suggested_stop": 495.52,
+      "suggested_target": 567.16,
+      "risk_reward": 2.0
+    },
+    {
+      "ticker": "LTTS.NS",
+      "close": 3206.1,
+      "score": 0,
+      "label": "Early / unconfirmed",
+      "stars": "\u2605\u2605",
+      "breakdown": {
+        "trend": "0/25",
+        "momentum": "0.0/15",
+        "volume": "0.0/15",
+        "price_action": "0.0/15",
+        "fundamentals": "0.9/10"
+      },
+      "risk_notes": [
+        "weekly trend not confirming",
+        "fundamentals unconfirmed/weak \u2014 technical-only setup"
+      ],
+      "suggested_stop": 3078.24,
+      "suggested_target": 3461.82,
+      "risk_reward": 2.0
+    }
+  ]
+}
