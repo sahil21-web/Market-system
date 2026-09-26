@@ -1,0 +1,363 @@
+{
+  "sectors": [
+    {
+      "sector": "Pharma",
+      "1m_return_pct": 1.41,
+      "3m_return_pct": 7.04,
+      "relative_strength_vs_nifty_1m": 5.82,
+      "score": 4.79
+    },
+    {
+      "sector": "IT",
+      "1m_return_pct": -7.12,
+      "3m_return_pct": 4.15,
+      "relative_strength_vs_nifty_1m": -2.71,
+      "score": -0.36
+    },
+    {
+      "sector": "Bank",
+      "1m_return_pct": -3.81,
+      "3m_return_pct": -3.72,
+      "relative_strength_vs_nifty_1m": 0.6,
+      "score": -3.76
+    }
+  ],
+  "wealth_candidates": [
+    {
+      "ticker": "MAHABANK.NS",
+      "roe_pct": 23.0,
+      "revenue_growth_pct": 21.8,
+      "debt_to_equity": null,
+      "checks_passed": 3
+    },
+    {
+      "ticker": "CRISIL.NS",
+      "roe_pct": 29.1,
+      "revenue_growth_pct": 27.6,
+      "debt_to_equity": 10.23,
+      "checks_passed": 3
+    },
+    {
+      "ticker": "CASTROLIND.NS",
+      "roe_pct": 57.0,
+      "revenue_growth_pct": 25.0,
+      "debt_to_equity": 2.784,
+      "checks_passed": 3
+    },
+    {
+      "ticker": "HEXT.NS",
+      "roe_pct": 21.5,
+      "revenue_growth_pct": 17.9,
+      "debt_to_equity": 10.18,
+      "checks_passed": 3
+    },
+    {
+      "ticker": "IOB.NS",
+      "roe_pct": 16.5,
+      "revenue_growth_pct": 48.1,
+      "debt_to_equity": null,
+      "checks_passed": 3
+    },
+    {
+      "ticker": "LTM.NS",
+      "roe_pct": 22.0,
+      "revenue_growth_pct": 18.0,
+      "debt_to_equity": 9.874,
+      "checks_passed": 3
+    },
+    {
+      "ticker": "ABB.NS",
+      "roe_pct": 19.1,
+      "revenue_growth_pct": 12.1,
+      "debt_to_equity": 1.547,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "BAJAJHLDNG.NS",
+      "roe_pct": 11.6,
+      "revenue_growth_pct": 24.2,
+      "debt_to_equity": 0.012,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "BANKBARODA.NS",
+      "roe_pct": 11.3,
+      "revenue_growth_pct": 18.0,
+      "debt_to_equity": null,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "BANKINDIA.NS",
+      "roe_pct": 13.7,
+      "revenue_growth_pct": 18.5,
+      "debt_to_equity": null,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "roe_pct": 20.2,
+      "revenue_growth_pct": 18.4,
+      "debt_to_equity": 100.415,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "CANHLIFE.NS",
+      "roe_pct": 8.3,
+      "revenue_growth_pct": 18.3,
+      "debt_to_equity": 15.304,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "CREDITACC.NS",
+      "roe_pct": 16.4,
+      "revenue_growth_pct": 149.5,
+      "debt_to_equity": 302.872,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "HCLTECH.NS",
+      "roe_pct": 24.1,
+      "revenue_growth_pct": 3.0,
+      "debt_to_equity": 7.058,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "roe_pct": 13.8,
+      "revenue_growth_pct": 16.6,
+      "debt_to_equity": null,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "roe_pct": 16.1,
+      "revenue_growth_pct": 11.4,
+      "debt_to_equity": null,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "IDFCFIRSTB.NS",
+      "roe_pct": 5.3,
+      "revenue_growth_pct": 29.8,
+      "debt_to_equity": null,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "INDIAMART.NS",
+      "roe_pct": 23.1,
+      "revenue_growth_pct": 11.4,
+      "debt_to_equity": 0.974,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "INDIANB.NS",
+      "roe_pct": 16.2,
+      "revenue_growth_pct": 10.3,
+      "debt_to_equity": null,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "INDUSTOWER.NS",
+      "roe_pct": 18.9,
+      "revenue_growth_pct": 4.6,
+      "debt_to_equity": 51.79,
+      "checks_passed": 2
+    },
+    {
+      "ticker": "INFY.NS",
+      "roe_pct": 32.0,
+      "revenue_growth_pct": 2.9,
+      "debt_to_equity": 9.541,
+      "checks_passed": 2
+    }
+  ],
+  "recovery_candidates": [
+    {
+      "ticker": "HEXT.NS",
+      "close": 499.35,
+      "high_52w": 777.85,
+      "fall_from_high_pct": 35.8,
+      "roe_pct": 21.5,
+      "revenue_growth_pct": 17.9,
+      "debt_to_equity": 10.18,
+      "checks_passed": 3,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "LTM.NS",
+      "close": 4083.0,
+      "high_52w": 6322.27,
+      "fall_from_high_pct": 35.4,
+      "roe_pct": 22.0,
+      "revenue_growth_pct": 18.0,
+      "debt_to_equity": 9.874,
+      "checks_passed": 3,
+      "selling_stabilizing": false
+    },
+    {
+      "ticker": "INDIAMART.NS",
+      "close": 1635.9,
+      "high_52w": 2434.2,
+      "fall_from_high_pct": 32.8,
+      "roe_pct": 23.1,
+      "revenue_growth_pct": 11.4,
+      "debt_to_equity": 0.974,
+      "checks_passed": 3,
+      "selling_stabilizing": false
+    },
+    {
+      "ticker": "IOB.NS",
+      "close": 31.98,
+      "high_52w": 40.67,
+      "fall_from_high_pct": 21.4,
+      "roe_pct": 16.5,
+      "revenue_growth_pct": 48.1,
+      "debt_to_equity": null,
+      "checks_passed": 3,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "INFY.NS",
+      "close": 1000.2,
+      "high_52w": 1654.01,
+      "fall_from_high_pct": 39.5,
+      "roe_pct": 32.0,
+      "revenue_growth_pct": 2.9,
+      "debt_to_equity": 9.541,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "close": 531.0,
+      "high_52w": 784.75,
+      "fall_from_high_pct": 32.3,
+      "roe_pct": 10.8,
+      "revenue_growth_pct": 14.3,
+      "debt_to_equity": 15.885,
+      "checks_passed": 2,
+      "selling_stabilizing": false
+    },
+    {
+      "ticker": "ICICIPRULI.NS",
+      "close": 464.5,
+      "high_52w": 686.07,
+      "fall_from_high_pct": 32.3,
+      "roe_pct": 12.6,
+      "revenue_growth_pct": 12.5,
+      "debt_to_equity": 18.052,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "close": 735.6,
+      "high_52w": 993.08,
+      "fall_from_high_pct": 25.9,
+      "roe_pct": 13.8,
+      "revenue_growth_pct": 16.6,
+      "debt_to_equity": null,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "BANKBARODA.NS",
+      "close": 235.26,
+      "high_52w": 314.28,
+      "fall_from_high_pct": 25.1,
+      "roe_pct": 11.3,
+      "revenue_growth_pct": 18.0,
+      "debt_to_equity": null,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "HCLTECH.NS",
+      "close": 1258.0,
+      "high_52w": 1679.96,
+      "fall_from_high_pct": 25.1,
+      "roe_pct": 24.1,
+      "revenue_growth_pct": 3.0,
+      "debt_to_equity": 7.058,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "ICICIGI.NS",
+      "close": 1553.7,
+      "high_52w": 2035.17,
+      "fall_from_high_pct": 23.7,
+      "roe_pct": 14.6,
+      "revenue_growth_pct": 10.9,
+      "debt_to_equity": null,
+      "checks_passed": 2,
+      "selling_stabilizing": false
+    },
+    {
+      "ticker": "CIEINDIA.NS",
+      "close": 388.95,
+      "high_52w": 490.2,
+      "fall_from_high_pct": 20.7,
+      "roe_pct": 12.2,
+      "revenue_growth_pct": 10.6,
+      "debt_to_equity": 6.63,
+      "checks_passed": 2,
+      "selling_stabilizing": false
+    },
+    {
+      "ticker": "BANKINDIA.NS",
+      "close": 137.94,
+      "high_52w": 171.59,
+      "fall_from_high_pct": 19.6,
+      "roe_pct": 13.7,
+      "revenue_growth_pct": 18.5,
+      "debt_to_equity": null,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "INDUSTOWER.NS",
+      "close": 374.65,
+      "high_52w": 460.42,
+      "fall_from_high_pct": 18.6,
+      "roe_pct": 18.9,
+      "revenue_growth_pct": 4.6,
+      "debt_to_equity": 51.79,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    },
+    {
+      "ticker": "CREDITACC.NS",
+      "close": 1315.1,
+      "high_52w": 1614.0,
+      "fall_from_high_pct": 18.5,
+      "roe_pct": 16.4,
+      "revenue_growth_pct": 149.5,
+      "debt_to_equity": 302.872,
+      "checks_passed": 2,
+      "selling_stabilizing": false
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "close": 1785.4,
+      "high_52w": 2135.82,
+      "fall_from_high_pct": 16.4,
+      "roe_pct": 20.2,
+      "revenue_growth_pct": 18.4,
+      "debt_to_equity": 100.415,
+      "checks_passed": 2,
+      "selling_stabilizing": false
+    },
+    {
+      "ticker": "BAJAJHLDNG.NS",
+      "close": 10917.0,
+      "high_52w": 12907.88,
+      "fall_from_high_pct": 15.4,
+      "roe_pct": 11.6,
+      "revenue_growth_pct": 24.2,
+      "debt_to_equity": 0.012,
+      "checks_passed": 2,
+      "selling_stabilizing": true
+    }
+  ]
+}
