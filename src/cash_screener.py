@@ -78,6 +78,8 @@ def screen_stock(ticker, df=None):
 
     last = df.iloc[-1]
     close = float(last["Close"])
+    if pd.isna(close) or close <= 0:
+        return None  # defensive — never emit a result built on bad data, even after the upstream fix
     breakdown = {}
 
     # --- TREND (25) — boolean structure checks; 6 distinct levels is fine,
